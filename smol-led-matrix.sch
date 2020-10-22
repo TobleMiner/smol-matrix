@@ -2528,4 +2528,6 @@ F 4 "C32254" H -1806 6759 50  0001 L CNN "LCSC"
 	1    -2300 6900
 	1    0    0    1   
 $EndComp
+Text Label -3150 6900 0    50   ~ 0
+BAT-
 $EndSCHEMATC
