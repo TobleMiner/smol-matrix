@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Connector_TagConnect)(type Legacy)(uri ${KIPRJMOD}/lib/Connector_TagConnect.lib)(options "")(descr ""))
+  (lib (name Transistor_FET_Dual)(type Legacy)(uri ${KIPRJMOD}/lib/Transistor_FET_Dual.lib)(options "")(descr ""))
+)

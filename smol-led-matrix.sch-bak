@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -13,1305 +13,2519 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 900  700  550  2300
-U 5F9266B4
-F0 "Column 0" 50
-F1 "column.sch" 50
-F2 "A0" I L 900 800 50 
-F3 "A1" I L 900 950 50 
-F4 "A2" I L 900 1100 50 
-F5 "A3" I L 900 1250 50 
-F6 "A4" I L 900 1400 50 
-F7 "A5" I L 900 1550 50 
-F8 "A6" I L 900 1700 50 
-F9 "A7" I L 900 1850 50 
-F10 "K" I R 1450 2900 50 
-F11 "A8" I L 900 2000 50 
-F12 "A9" I L 900 2150 50 
-F13 "A10" I L 900 2300 50 
-F14 "A11" I L 900 2450 50 
-F15 "A12" I L 900 2600 50 
-F16 "A13" I L 900 2750 50 
-F17 "A14" I L 900 2900 50 
-$EndSheet
 Wire Wire Line
-	900  800  650  800 
-Text Label 650  800  0    50   ~ 0
+	11100 5300 10900 5300
+Text Label 10100 5300 0    50   ~ 0
 A15
 Wire Wire Line
-	900  950  650  950 
-Text Label 650  950  0    50   ~ 0
-A1
-Wire Wire Line
-	900  1100 650  1100
-Text Label 650  1100 0    50   ~ 0
-A2
-Wire Wire Line
-	900  1250 650  1250
-Text Label 650  1250 0    50   ~ 0
-A3
-Wire Wire Line
-	900  1400 650  1400
-Text Label 650  1400 0    50   ~ 0
-A4
-Wire Wire Line
-	900  1550 650  1550
-Text Label 650  1550 0    50   ~ 0
-A5
-Wire Wire Line
-	900  1700 650  1700
-Text Label 650  1700 0    50   ~ 0
-A6
-Wire Wire Line
-	900  1850 650  1850
-Text Label 650  1850 0    50   ~ 0
-A7
-Text Label 1650 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	900  2000 650  2000
-Text Label 650  2000 0    50   ~ 0
-A8
-Wire Wire Line
-	900  2150 650  2150
-Text Label 650  2150 0    50   ~ 0
-A9
-Wire Wire Line
-	900  2300 650  2300
-Text Label 650  2300 0    50   ~ 0
-A10
-Wire Wire Line
-	900  2450 650  2450
-Text Label 650  2450 0    50   ~ 0
-A11
-Wire Wire Line
-	900  2600 650  2600
-Text Label 650  2600 0    50   ~ 0
-A12
-Wire Wire Line
-	900  2750 650  2750
-Text Label 650  2750 0    50   ~ 0
+	10350 5300 10100 5300
+Text Label 10100 5150 0    50   ~ 0
 A13
 Wire Wire Line
-	900  2900 650  2900
-Text Label 650  2900 0    50   ~ 0
-A14
-Wire Wire Line
-	1650 2900 1450 2900
-$Sheet
-S 1950 700  550  2300
-U 5F938E39
-F0 "Column 1" 50
-F1 "column.sch" 50
-F2 "A0" I L 1950 800 50 
-F3 "A1" I L 1950 950 50 
-F4 "A2" I L 1950 1100 50 
-F5 "A3" I L 1950 1250 50 
-F6 "A4" I L 1950 1400 50 
-F7 "A5" I L 1950 1550 50 
-F8 "A6" I L 1950 1700 50 
-F9 "A7" I L 1950 1850 50 
-F10 "K" I R 2500 2900 50 
-F11 "A8" I L 1950 2000 50 
-F12 "A9" I L 1950 2150 50 
-F13 "A10" I L 1950 2300 50 
-F14 "A11" I L 1950 2450 50 
-F15 "A12" I L 1950 2600 50 
-F16 "A13" I L 1950 2750 50 
-F17 "A14" I L 1950 2900 50 
-$EndSheet
-Wire Wire Line
-	1950 800  1700 800 
-Text Label 1700 800  0    50   ~ 0
-A0
-Wire Wire Line
-	1950 950  1700 950 
-Text Label 1700 950  0    50   ~ 0
-A15
-Wire Wire Line
-	1950 1100 1700 1100
-Text Label 1700 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	1950 1250 1700 1250
-Text Label 1700 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	1950 1400 1700 1400
-Text Label 1700 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	1950 1550 1700 1550
-Text Label 1700 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	1950 1700 1700 1700
-Text Label 1700 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	1950 1850 1700 1850
-Text Label 1700 1850 0    50   ~ 0
-A7
-Text Label 2700 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	1950 2000 1700 2000
-Text Label 1700 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	1950 2150 1700 2150
-Text Label 1700 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	1950 2300 1700 2300
-Text Label 1700 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	1950 2450 1700 2450
-Text Label 1700 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	1950 2600 1700 2600
-Text Label 1700 2600 0    50   ~ 0
+	10350 5150 10100 5150
+Text Label 10100 5000 0    50   ~ 0
 A12
 Wire Wire Line
-	1950 2750 1700 2750
-Text Label 1700 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	1950 2900 1700 2900
-Text Label 1700 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	2700 2900 2500 2900
-$Sheet
-S 3000 700  550  2300
-U 5F939D1F
-F0 "Column 2" 50
-F1 "column.sch" 50
-F2 "A0" I L 3000 800 50 
-F3 "A1" I L 3000 950 50 
-F4 "A2" I L 3000 1100 50 
-F5 "A3" I L 3000 1250 50 
-F6 "A4" I L 3000 1400 50 
-F7 "A5" I L 3000 1550 50 
-F8 "A6" I L 3000 1700 50 
-F9 "A7" I L 3000 1850 50 
-F10 "K" I R 3550 2900 50 
-F11 "A8" I L 3000 2000 50 
-F12 "A9" I L 3000 2150 50 
-F13 "A10" I L 3000 2300 50 
-F14 "A11" I L 3000 2450 50 
-F15 "A12" I L 3000 2600 50 
-F16 "A13" I L 3000 2750 50 
-F17 "A14" I L 3000 2900 50 
-$EndSheet
-Wire Wire Line
-	3000 800  2750 800 
-Text Label 2750 800  0    50   ~ 0
-A0
-Wire Wire Line
-	3000 950  2750 950 
-Text Label 2750 950  0    50   ~ 0
-A1
-Wire Wire Line
-	3000 1100 2750 1100
-Text Label 2750 1100 0    50   ~ 0
-A15
-Wire Wire Line
-	3000 1250 2750 1250
-Text Label 2750 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	3000 1400 2750 1400
-Text Label 2750 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	3000 1550 2750 1550
-Text Label 2750 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	3000 1700 2750 1700
-Text Label 2750 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	3000 1850 2750 1850
-Text Label 2750 1850 0    50   ~ 0
-A7
-Text Label 3750 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	3000 2000 2750 2000
-Text Label 2750 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	3000 2150 2750 2150
-Text Label 2750 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	3000 2300 2750 2300
-Text Label 2750 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	3000 2450 2750 2450
-Text Label 2750 2450 0    50   ~ 0
+	10350 5000 10100 5000
+Text Label 10100 4850 0    50   ~ 0
 A11
 Wire Wire Line
-	3000 2600 2750 2600
-Text Label 2750 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	3000 2750 2750 2750
-Text Label 2750 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	3000 2900 2750 2900
-Text Label 2750 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	3750 2900 3550 2900
-$Sheet
-S 4050 700  550  2300
-U 5F93B525
-F0 "Column 3" 50
-F1 "column.sch" 50
-F2 "A0" I L 4050 800 50 
-F3 "A1" I L 4050 950 50 
-F4 "A2" I L 4050 1100 50 
-F5 "A3" I L 4050 1250 50 
-F6 "A4" I L 4050 1400 50 
-F7 "A5" I L 4050 1550 50 
-F8 "A6" I L 4050 1700 50 
-F9 "A7" I L 4050 1850 50 
-F10 "K" I R 4600 2900 50 
-F11 "A8" I L 4050 2000 50 
-F12 "A9" I L 4050 2150 50 
-F13 "A10" I L 4050 2300 50 
-F14 "A11" I L 4050 2450 50 
-F15 "A12" I L 4050 2600 50 
-F16 "A13" I L 4050 2750 50 
-F17 "A14" I L 4050 2900 50 
-$EndSheet
-Wire Wire Line
-	4050 800  3800 800 
-Text Label 3800 800  0    50   ~ 0
-A0
-Wire Wire Line
-	4050 950  3800 950 
-Text Label 3800 950  0    50   ~ 0
-A1
-Wire Wire Line
-	4050 1100 3800 1100
-Text Label 3800 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	4050 1250 3800 1250
-Text Label 3800 1250 0    50   ~ 0
-A15
-Wire Wire Line
-	4050 1400 3800 1400
-Text Label 3800 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	4050 1550 3800 1550
-Text Label 3800 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	4050 1700 3800 1700
-Text Label 3800 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	4050 1850 3800 1850
-Text Label 3800 1850 0    50   ~ 0
-A7
-Text Label 4800 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	4050 2000 3800 2000
-Text Label 3800 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	4050 2150 3800 2150
-Text Label 3800 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	4050 2300 3800 2300
-Text Label 3800 2300 0    50   ~ 0
+	10350 4850 10100 4850
+Text Label 10100 4700 0    50   ~ 0
 A10
 Wire Wire Line
-	4050 2450 3800 2450
-Text Label 3800 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	4050 2600 3800 2600
-Text Label 3800 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	4050 2750 3800 2750
-Text Label 3800 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	4050 2900 3800 2900
-Text Label 3800 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	4800 2900 4600 2900
-$Sheet
-S 5100 700  550  2300
-U 5F93E254
-F0 "Column 4" 50
-F1 "column.sch" 50
-F2 "A0" I L 5100 800 50 
-F3 "A1" I L 5100 950 50 
-F4 "A2" I L 5100 1100 50 
-F5 "A3" I L 5100 1250 50 
-F6 "A4" I L 5100 1400 50 
-F7 "A5" I L 5100 1550 50 
-F8 "A6" I L 5100 1700 50 
-F9 "A7" I L 5100 1850 50 
-F10 "K" I R 5650 2900 50 
-F11 "A8" I L 5100 2000 50 
-F12 "A9" I L 5100 2150 50 
-F13 "A10" I L 5100 2300 50 
-F14 "A11" I L 5100 2450 50 
-F15 "A12" I L 5100 2600 50 
-F16 "A13" I L 5100 2750 50 
-F17 "A14" I L 5100 2900 50 
-$EndSheet
-Wire Wire Line
-	5100 800  4850 800 
-Text Label 4850 800  0    50   ~ 0
-A0
-Wire Wire Line
-	5100 950  4850 950 
-Text Label 4850 950  0    50   ~ 0
-A1
-Wire Wire Line
-	5100 1100 4850 1100
-Text Label 4850 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	5100 1250 4850 1250
-Text Label 4850 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	5100 1400 4850 1400
-Text Label 4850 1400 0    50   ~ 0
-A15
-Wire Wire Line
-	5100 1550 4850 1550
-Text Label 4850 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	5100 1700 4850 1700
-Text Label 4850 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	5100 1850 4850 1850
-Text Label 4850 1850 0    50   ~ 0
-A7
-Text Label 5850 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	5100 2000 4850 2000
-Text Label 4850 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	5100 2150 4850 2150
-Text Label 4850 2150 0    50   ~ 0
+	10350 4700 10100 4700
+Text Label 10100 4550 0    50   ~ 0
 A9
 Wire Wire Line
-	5100 2300 4850 2300
-Text Label 4850 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	5100 2450 4850 2450
-Text Label 4850 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	5100 2600 4850 2600
-Text Label 4850 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	5100 2750 4850 2750
-Text Label 4850 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	5100 2900 4850 2900
-Text Label 4850 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	5850 2900 5650 2900
-$Sheet
-S 6150 700  550  2300
-U 5F941166
-F0 "Column 5" 50
-F1 "column.sch" 50
-F2 "A0" I L 6150 800 50 
-F3 "A1" I L 6150 950 50 
-F4 "A2" I L 6150 1100 50 
-F5 "A3" I L 6150 1250 50 
-F6 "A4" I L 6150 1400 50 
-F7 "A5" I L 6150 1550 50 
-F8 "A6" I L 6150 1700 50 
-F9 "A7" I L 6150 1850 50 
-F10 "K" I R 6700 2900 50 
-F11 "A8" I L 6150 2000 50 
-F12 "A9" I L 6150 2150 50 
-F13 "A10" I L 6150 2300 50 
-F14 "A11" I L 6150 2450 50 
-F15 "A12" I L 6150 2600 50 
-F16 "A13" I L 6150 2750 50 
-F17 "A14" I L 6150 2900 50 
-$EndSheet
-Wire Wire Line
-	6150 800  5900 800 
-Text Label 5900 800  0    50   ~ 0
-A0
-Wire Wire Line
-	6150 950  5900 950 
-Text Label 5900 950  0    50   ~ 0
-A1
-Wire Wire Line
-	6150 1100 5900 1100
-Text Label 5900 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	6150 1250 5900 1250
-Text Label 5900 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	6150 1400 5900 1400
-Text Label 5900 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	6150 1550 5900 1550
-Text Label 5900 1550 0    50   ~ 0
-A15
-Wire Wire Line
-	6150 1700 5900 1700
-Text Label 5900 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	6150 1850 5900 1850
-Text Label 5900 1850 0    50   ~ 0
-A7
-Text Label 6900 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	6150 2000 5900 2000
-Text Label 5900 2000 0    50   ~ 0
+	10350 4550 10100 4550
+Text Label 10100 4400 0    50   ~ 0
 A8
 Wire Wire Line
-	6150 2150 5900 2150
-Text Label 5900 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	6150 2300 5900 2300
-Text Label 5900 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	6150 2450 5900 2450
-Text Label 5900 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	6150 2600 5900 2600
-Text Label 5900 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	6150 2750 5900 2750
-Text Label 5900 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	6150 2900 5900 2900
-Text Label 5900 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	6900 2900 6700 2900
-$Sheet
-S 7200 700  550  2300
-U 5F944D0C
-F0 "Column 6" 50
-F1 "column.sch" 50
-F2 "A0" I L 7200 800 50 
-F3 "A1" I L 7200 950 50 
-F4 "A2" I L 7200 1100 50 
-F5 "A3" I L 7200 1250 50 
-F6 "A4" I L 7200 1400 50 
-F7 "A5" I L 7200 1550 50 
-F8 "A6" I L 7200 1700 50 
-F9 "A7" I L 7200 1850 50 
-F10 "K" I R 7750 2900 50 
-F11 "A8" I L 7200 2000 50 
-F12 "A9" I L 7200 2150 50 
-F13 "A10" I L 7200 2300 50 
-F14 "A11" I L 7200 2450 50 
-F15 "A12" I L 7200 2600 50 
-F16 "A13" I L 7200 2750 50 
-F17 "A14" I L 7200 2900 50 
-$EndSheet
-Wire Wire Line
-	7200 800  6950 800 
-Text Label 6950 800  0    50   ~ 0
-A0
-Wire Wire Line
-	7200 950  6950 950 
-Text Label 6950 950  0    50   ~ 0
-A1
-Wire Wire Line
-	7200 1100 6950 1100
-Text Label 6950 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	7200 1250 6950 1250
-Text Label 6950 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	7200 1400 6950 1400
-Text Label 6950 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	7200 1550 6950 1550
-Text Label 6950 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	7200 1700 6950 1700
-Text Label 6950 1700 0    50   ~ 0
-A15
-Wire Wire Line
-	7200 1850 6950 1850
-Text Label 6950 1850 0    50   ~ 0
+	10350 4400 10100 4400
+Text Label 11100 5300 2    50   ~ 0
+K14
+Text Label 10100 4250 0    50   ~ 0
 A7
-Text Label 7950 2900 2    50   ~ 0
-K0
 Wire Wire Line
-	7200 2000 6950 2000
-Text Label 6950 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	7200 2150 6950 2150
-Text Label 6950 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	7200 2300 6950 2300
-Text Label 6950 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	7200 2450 6950 2450
-Text Label 6950 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	7200 2600 6950 2600
-Text Label 6950 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	7200 2750 6950 2750
-Text Label 6950 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	7200 2900 6950 2900
-Text Label 6950 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	7950 2900 7750 2900
-$Sheet
-S 8250 700  550  2300
-U 5F94AD53
-F0 "Column 7" 50
-F1 "column.sch" 50
-F2 "A0" I L 8250 800 50 
-F3 "A1" I L 8250 950 50 
-F4 "A2" I L 8250 1100 50 
-F5 "A3" I L 8250 1250 50 
-F6 "A4" I L 8250 1400 50 
-F7 "A5" I L 8250 1550 50 
-F8 "A6" I L 8250 1700 50 
-F9 "A7" I L 8250 1850 50 
-F10 "K" I R 8800 2900 50 
-F11 "A8" I L 8250 2000 50 
-F12 "A9" I L 8250 2150 50 
-F13 "A10" I L 8250 2300 50 
-F14 "A11" I L 8250 2450 50 
-F15 "A12" I L 8250 2600 50 
-F16 "A13" I L 8250 2750 50 
-F17 "A14" I L 8250 2900 50 
-$EndSheet
-Wire Wire Line
-	8250 800  8000 800 
-Text Label 8000 800  0    50   ~ 0
-A0
-Wire Wire Line
-	8250 950  8000 950 
-Text Label 8000 950  0    50   ~ 0
-A1
-Wire Wire Line
-	8250 1100 8000 1100
-Text Label 8000 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	8250 1250 8000 1250
-Text Label 8000 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	8250 1400 8000 1400
-Text Label 8000 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	8250 1550 8000 1550
-Text Label 8000 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	8250 1700 8000 1700
-Text Label 8000 1700 0    50   ~ 0
+	10350 4250 10100 4250
+Text Label 10100 4100 0    50   ~ 0
 A6
 Wire Wire Line
-	8250 1850 8000 1850
-Text Label 8000 1850 0    50   ~ 0
-A15
-Text Label 9000 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	8250 2000 8000 2000
-Text Label 8000 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	8250 2150 8000 2150
-Text Label 8000 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	8250 2300 8000 2300
-Text Label 8000 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	8250 2450 8000 2450
-Text Label 8000 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	8250 2600 8000 2600
-Text Label 8000 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	8250 2750 8000 2750
-Text Label 8000 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	8250 2900 8000 2900
-Text Label 8000 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	9000 2900 8800 2900
-$Sheet
-S 9300 700  550  2300
-U 5F951450
-F0 "Column 8" 50
-F1 "column.sch" 50
-F2 "A0" I L 9300 800 50 
-F3 "A1" I L 9300 950 50 
-F4 "A2" I L 9300 1100 50 
-F5 "A3" I L 9300 1250 50 
-F6 "A4" I L 9300 1400 50 
-F7 "A5" I L 9300 1550 50 
-F8 "A6" I L 9300 1700 50 
-F9 "A7" I L 9300 1850 50 
-F10 "K" I R 9850 2900 50 
-F11 "A8" I L 9300 2000 50 
-F12 "A9" I L 9300 2150 50 
-F13 "A10" I L 9300 2300 50 
-F14 "A11" I L 9300 2450 50 
-F15 "A12" I L 9300 2600 50 
-F16 "A13" I L 9300 2750 50 
-F17 "A14" I L 9300 2900 50 
-$EndSheet
-Wire Wire Line
-	9300 800  9050 800 
-Text Label 9050 800  0    50   ~ 0
-A0
-Wire Wire Line
-	9300 950  9050 950 
-Text Label 9050 950  0    50   ~ 0
-A1
-Wire Wire Line
-	9300 1100 9050 1100
-Text Label 9050 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	9300 1250 9050 1250
-Text Label 9050 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	9300 1400 9050 1400
-Text Label 9050 1400 0    50   ~ 0
-A4
-Wire Wire Line
-	9300 1550 9050 1550
-Text Label 9050 1550 0    50   ~ 0
+	10350 4100 10100 4100
+Text Label 10100 3950 0    50   ~ 0
 A5
 Wire Wire Line
-	9300 1700 9050 1700
-Text Label 9050 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	9300 1850 9050 1850
-Text Label 9050 1850 0    50   ~ 0
-A7
-Text Label 10050 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	9300 2000 9050 2000
-Text Label 9050 2000 0    50   ~ 0
-A15
-Wire Wire Line
-	9300 2150 9050 2150
-Text Label 9050 2150 0    50   ~ 0
-A9
-Wire Wire Line
-	9300 2300 9050 2300
-Text Label 9050 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	9300 2450 9050 2450
-Text Label 9050 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	9300 2600 9050 2600
-Text Label 9050 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	9300 2750 9050 2750
-Text Label 9050 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	9300 2900 9050 2900
-Text Label 9050 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	10050 2900 9850 2900
-$Sheet
-S 10350 700  550  2300
-U 5F959827
-F0 "Column 9" 50
-F1 "column.sch" 50
-F2 "A0" I L 10350 800 50 
-F3 "A1" I L 10350 950 50 
-F4 "A2" I L 10350 1100 50 
-F5 "A3" I L 10350 1250 50 
-F6 "A4" I L 10350 1400 50 
-F7 "A5" I L 10350 1550 50 
-F8 "A6" I L 10350 1700 50 
-F9 "A7" I L 10350 1850 50 
-F10 "K" I R 10900 2900 50 
-F11 "A8" I L 10350 2000 50 
-F12 "A9" I L 10350 2150 50 
-F13 "A10" I L 10350 2300 50 
-F14 "A11" I L 10350 2450 50 
-F15 "A12" I L 10350 2600 50 
-F16 "A13" I L 10350 2750 50 
-F17 "A14" I L 10350 2900 50 
-$EndSheet
-Wire Wire Line
-	10350 800  10100 800 
-Text Label 10100 800  0    50   ~ 0
-A0
-Wire Wire Line
-	10350 950  10100 950 
-Text Label 10100 950  0    50   ~ 0
-A1
-Wire Wire Line
-	10350 1100 10100 1100
-Text Label 10100 1100 0    50   ~ 0
-A2
-Wire Wire Line
-	10350 1250 10100 1250
-Text Label 10100 1250 0    50   ~ 0
-A3
-Wire Wire Line
-	10350 1400 10100 1400
-Text Label 10100 1400 0    50   ~ 0
+	10350 3950 10100 3950
+Text Label 10100 3800 0    50   ~ 0
 A4
 Wire Wire Line
-	10350 1550 10100 1550
-Text Label 10100 1550 0    50   ~ 0
-A5
-Wire Wire Line
-	10350 1700 10100 1700
-Text Label 10100 1700 0    50   ~ 0
-A6
-Wire Wire Line
-	10350 1850 10100 1850
-Text Label 10100 1850 0    50   ~ 0
-A7
-Text Label 11100 2900 2    50   ~ 0
-K0
-Wire Wire Line
-	10350 2000 10100 2000
-Text Label 10100 2000 0    50   ~ 0
-A8
-Wire Wire Line
-	10350 2150 10100 2150
-Text Label 10100 2150 0    50   ~ 0
-A15
-Wire Wire Line
-	10350 2300 10100 2300
-Text Label 10100 2300 0    50   ~ 0
-A10
-Wire Wire Line
-	10350 2450 10100 2450
-Text Label 10100 2450 0    50   ~ 0
-A11
-Wire Wire Line
-	10350 2600 10100 2600
-Text Label 10100 2600 0    50   ~ 0
-A12
-Wire Wire Line
-	10350 2750 10100 2750
-Text Label 10100 2750 0    50   ~ 0
-A13
-Wire Wire Line
-	10350 2900 10100 2900
-Text Label 10100 2900 0    50   ~ 0
-A14
-Wire Wire Line
-	11100 2900 10900 2900
-$Sheet
-S 900  3200 550  2300
-U 5F96367C
-F0 "Column 10" 50
-F1 "column.sch" 50
-F2 "A0" I L 900 3300 50 
-F3 "A1" I L 900 3450 50 
-F4 "A2" I L 900 3600 50 
-F5 "A3" I L 900 3750 50 
-F6 "A4" I L 900 3900 50 
-F7 "A5" I L 900 4050 50 
-F8 "A6" I L 900 4200 50 
-F9 "A7" I L 900 4350 50 
-F10 "K" I R 1450 5400 50 
-F11 "A8" I L 900 4500 50 
-F12 "A9" I L 900 4650 50 
-F13 "A10" I L 900 4800 50 
-F14 "A11" I L 900 4950 50 
-F15 "A12" I L 900 5100 50 
-F16 "A13" I L 900 5250 50 
-F17 "A14" I L 900 5400 50 
-$EndSheet
-Wire Wire Line
-	900  3300 650  3300
-Text Label 650  3300 0    50   ~ 0
-A0
-Wire Wire Line
-	900  3450 650  3450
-Text Label 650  3450 0    50   ~ 0
-A1
-Wire Wire Line
-	900  3600 650  3600
-Text Label 650  3600 0    50   ~ 0
-A2
-Wire Wire Line
-	900  3750 650  3750
-Text Label 650  3750 0    50   ~ 0
+	10350 3800 10100 3800
+Text Label 10100 3650 0    50   ~ 0
 A3
 Wire Wire Line
-	900  3900 650  3900
-Text Label 650  3900 0    50   ~ 0
-A4
-Wire Wire Line
-	900  4050 650  4050
-Text Label 650  4050 0    50   ~ 0
-A5
-Wire Wire Line
-	900  4200 650  4200
-Text Label 650  4200 0    50   ~ 0
-A6
-Wire Wire Line
-	900  4350 650  4350
-Text Label 650  4350 0    50   ~ 0
-A7
-Text Label 1650 5400 2    50   ~ 0
-K0
-Wire Wire Line
-	900  4500 650  4500
-Text Label 650  4500 0    50   ~ 0
-A8
-Wire Wire Line
-	900  4650 650  4650
-Text Label 650  4650 0    50   ~ 0
-A9
-Wire Wire Line
-	900  4800 650  4800
-Text Label 650  4800 0    50   ~ 0
-A15
-Wire Wire Line
-	900  4950 650  4950
-Text Label 650  4950 0    50   ~ 0
-A11
-Wire Wire Line
-	900  5100 650  5100
-Text Label 650  5100 0    50   ~ 0
-A12
-Wire Wire Line
-	900  5250 650  5250
-Text Label 650  5250 0    50   ~ 0
-A13
-Wire Wire Line
-	900  5400 650  5400
-Text Label 650  5400 0    50   ~ 0
-A14
-Wire Wire Line
-	1650 5400 1450 5400
-$Sheet
-S 1950 3200 550  2300
-U 5F970ED3
-F0 "Column 11" 50
-F1 "column.sch" 50
-F2 "A0" I L 1950 3300 50 
-F3 "A1" I L 1950 3450 50 
-F4 "A2" I L 1950 3600 50 
-F5 "A3" I L 1950 3750 50 
-F6 "A4" I L 1950 3900 50 
-F7 "A5" I L 1950 4050 50 
-F8 "A6" I L 1950 4200 50 
-F9 "A7" I L 1950 4350 50 
-F10 "K" I R 2500 5400 50 
-F11 "A8" I L 1950 4500 50 
-F12 "A9" I L 1950 4650 50 
-F13 "A10" I L 1950 4800 50 
-F14 "A11" I L 1950 4950 50 
-F15 "A12" I L 1950 5100 50 
-F16 "A13" I L 1950 5250 50 
-F17 "A14" I L 1950 5400 50 
-$EndSheet
-Wire Wire Line
-	1950 3300 1700 3300
-Text Label 1700 3300 0    50   ~ 0
-A0
-Wire Wire Line
-	1950 3450 1700 3450
-Text Label 1700 3450 0    50   ~ 0
-A1
-Wire Wire Line
-	1950 3600 1700 3600
-Text Label 1700 3600 0    50   ~ 0
+	10350 3650 10100 3650
+Text Label 10100 3500 0    50   ~ 0
 A2
 Wire Wire Line
-	1950 3750 1700 3750
-Text Label 1700 3750 0    50   ~ 0
-A3
-Wire Wire Line
-	1950 3900 1700 3900
-Text Label 1700 3900 0    50   ~ 0
-A4
-Wire Wire Line
-	1950 4050 1700 4050
-Text Label 1700 4050 0    50   ~ 0
-A5
-Wire Wire Line
-	1950 4200 1700 4200
-Text Label 1700 4200 0    50   ~ 0
-A6
-Wire Wire Line
-	1950 4350 1700 4350
-Text Label 1700 4350 0    50   ~ 0
-A7
-Text Label 2700 5400 2    50   ~ 0
-K0
-Wire Wire Line
-	1950 4500 1700 4500
-Text Label 1700 4500 0    50   ~ 0
-A8
-Wire Wire Line
-	1950 4650 1700 4650
-Text Label 1700 4650 0    50   ~ 0
-A9
-Wire Wire Line
-	1950 4800 1700 4800
-Text Label 1700 4800 0    50   ~ 0
-A10
-Wire Wire Line
-	1950 4950 1700 4950
-Text Label 1700 4950 0    50   ~ 0
-A15
-Wire Wire Line
-	1950 5100 1700 5100
-Text Label 1700 5100 0    50   ~ 0
-A12
-Wire Wire Line
-	1950 5250 1700 5250
-Text Label 1700 5250 0    50   ~ 0
-A13
-Wire Wire Line
-	1950 5400 1700 5400
-Text Label 1700 5400 0    50   ~ 0
-A14
-Wire Wire Line
-	2700 5400 2500 5400
-$Sheet
-S 3000 3200 550  2300
-U 5F982593
-F0 "Column 12" 50
-F1 "column.sch" 50
-F2 "A0" I L 3000 3300 50 
-F3 "A1" I L 3000 3450 50 
-F4 "A2" I L 3000 3600 50 
-F5 "A3" I L 3000 3750 50 
-F6 "A4" I L 3000 3900 50 
-F7 "A5" I L 3000 4050 50 
-F8 "A6" I L 3000 4200 50 
-F9 "A7" I L 3000 4350 50 
-F10 "K" I R 3550 5400 50 
-F11 "A8" I L 3000 4500 50 
-F12 "A9" I L 3000 4650 50 
-F13 "A10" I L 3000 4800 50 
-F14 "A11" I L 3000 4950 50 
-F15 "A12" I L 3000 5100 50 
-F16 "A13" I L 3000 5250 50 
-F17 "A14" I L 3000 5400 50 
-$EndSheet
-Wire Wire Line
-	3000 3300 2750 3300
-Text Label 2750 3300 0    50   ~ 0
-A0
-Wire Wire Line
-	3000 3450 2750 3450
-Text Label 2750 3450 0    50   ~ 0
+	10350 3500 10100 3500
+Text Label 10100 3350 0    50   ~ 0
 A1
 Wire Wire Line
-	3000 3600 2750 3600
-Text Label 2750 3600 0    50   ~ 0
-A2
-Wire Wire Line
-	3000 3750 2750 3750
-Text Label 2750 3750 0    50   ~ 0
-A3
-Wire Wire Line
-	3000 3900 2750 3900
-Text Label 2750 3900 0    50   ~ 0
-A4
-Wire Wire Line
-	3000 4050 2750 4050
-Text Label 2750 4050 0    50   ~ 0
-A5
-Wire Wire Line
-	3000 4200 2750 4200
-Text Label 2750 4200 0    50   ~ 0
-A6
-Wire Wire Line
-	3000 4350 2750 4350
-Text Label 2750 4350 0    50   ~ 0
-A7
-Text Label 3750 5400 2    50   ~ 0
-K0
-Wire Wire Line
-	3000 4500 2750 4500
-Text Label 2750 4500 0    50   ~ 0
-A8
-Wire Wire Line
-	3000 4650 2750 4650
-Text Label 2750 4650 0    50   ~ 0
-A9
-Wire Wire Line
-	3000 4800 2750 4800
-Text Label 2750 4800 0    50   ~ 0
-A10
-Wire Wire Line
-	3000 4950 2750 4950
-Text Label 2750 4950 0    50   ~ 0
-A11
-Wire Wire Line
-	3000 5100 2750 5100
-Text Label 2750 5100 0    50   ~ 0
-A15
-Wire Wire Line
-	3000 5250 2750 5250
-Text Label 2750 5250 0    50   ~ 0
-A13
-Wire Wire Line
-	3000 5400 2750 5400
-Text Label 2750 5400 0    50   ~ 0
-A14
-Wire Wire Line
-	3750 5400 3550 5400
-$Sheet
-S 4050 3200 550  2300
-U 5F997870
-F0 "Column 13" 50
-F1 "column.sch" 50
-F2 "A0" I L 4050 3300 50 
-F3 "A1" I L 4050 3450 50 
-F4 "A2" I L 4050 3600 50 
-F5 "A3" I L 4050 3750 50 
-F6 "A4" I L 4050 3900 50 
-F7 "A5" I L 4050 4050 50 
-F8 "A6" I L 4050 4200 50 
-F9 "A7" I L 4050 4350 50 
-F10 "K" I R 4600 5400 50 
-F11 "A8" I L 4050 4500 50 
-F12 "A9" I L 4050 4650 50 
-F13 "A10" I L 4050 4800 50 
-F14 "A11" I L 4050 4950 50 
-F15 "A12" I L 4050 5100 50 
-F16 "A13" I L 4050 5250 50 
-F17 "A14" I L 4050 5400 50 
-$EndSheet
-Wire Wire Line
-	4050 3300 3800 3300
-Text Label 3800 3300 0    50   ~ 0
+	10350 3350 10100 3350
+Text Label 10100 3200 0    50   ~ 0
 A0
 Wire Wire Line
-	4050 3450 3800 3450
-Text Label 3800 3450 0    50   ~ 0
-A1
-Wire Wire Line
-	4050 3600 3800 3600
-Text Label 3800 3600 0    50   ~ 0
-A2
-Wire Wire Line
-	4050 3750 3800 3750
-Text Label 3800 3750 0    50   ~ 0
-A3
-Wire Wire Line
-	4050 3900 3800 3900
-Text Label 3800 3900 0    50   ~ 0
-A4
-Wire Wire Line
-	4050 4050 3800 4050
-Text Label 3800 4050 0    50   ~ 0
-A5
-Wire Wire Line
-	4050 4200 3800 4200
-Text Label 3800 4200 0    50   ~ 0
-A6
-Wire Wire Line
-	4050 4350 3800 4350
-Text Label 3800 4350 0    50   ~ 0
-A7
-Text Label 4800 5400 2    50   ~ 0
-K0
-Wire Wire Line
-	4050 4500 3800 4500
-Text Label 3800 4500 0    50   ~ 0
-A8
-Wire Wire Line
-	4050 4650 3800 4650
-Text Label 3800 4650 0    50   ~ 0
-A9
-Wire Wire Line
-	4050 4800 3800 4800
-Text Label 3800 4800 0    50   ~ 0
-A10
-Wire Wire Line
-	4050 4950 3800 4950
-Text Label 3800 4950 0    50   ~ 0
-A11
-Wire Wire Line
-	4050 5100 3800 5100
-Text Label 3800 5100 0    50   ~ 0
-A12
-Wire Wire Line
-	4050 5250 3800 5250
-Text Label 3800 5250 0    50   ~ 0
-A15
-Wire Wire Line
-	4050 5400 3800 5400
-Text Label 3800 5400 0    50   ~ 0
-A14
-Wire Wire Line
-	4800 5400 4600 5400
+	10350 3200 10100 3200
 $Sheet
-S 5100 3200 550  2300
+S 10350 3100 550  2300
 U 5F9B03F8
 F0 "Column 14" 50
 F1 "column.sch" 50
-F2 "A0" I L 5100 3300 50 
-F3 "A1" I L 5100 3450 50 
-F4 "A2" I L 5100 3600 50 
-F5 "A3" I L 5100 3750 50 
-F6 "A4" I L 5100 3900 50 
-F7 "A5" I L 5100 4050 50 
-F8 "A6" I L 5100 4200 50 
-F9 "A7" I L 5100 4350 50 
-F10 "K" I R 5650 5400 50 
-F11 "A8" I L 5100 4500 50 
-F12 "A9" I L 5100 4650 50 
-F13 "A10" I L 5100 4800 50 
-F14 "A11" I L 5100 4950 50 
-F15 "A12" I L 5100 5100 50 
-F16 "A13" I L 5100 5250 50 
-F17 "A14" I L 5100 5400 50 
+F2 "A0" I L 10350 3200 50 
+F3 "A1" I L 10350 3350 50 
+F4 "A2" I L 10350 3500 50 
+F5 "A3" I L 10350 3650 50 
+F6 "A4" I L 10350 3800 50 
+F7 "A5" I L 10350 3950 50 
+F8 "A6" I L 10350 4100 50 
+F9 "A7" I L 10350 4250 50 
+F10 "K" I R 10900 5300 50 
+F11 "A8" I L 10350 4400 50 
+F12 "A9" I L 10350 4550 50 
+F13 "A10" I L 10350 4700 50 
+F14 "A11" I L 10350 4850 50 
+F15 "A12" I L 10350 5000 50 
+F16 "A13" I L 10350 5150 50 
+F17 "A14" I L 10350 5300 50 
 $EndSheet
 Wire Wire Line
-	5100 3300 4850 3300
-Text Label 4850 3300 0    50   ~ 0
-A0
+	10050 5300 9850 5300
+Text Label 9050 5300 0    50   ~ 0
+A14
 Wire Wire Line
-	5100 3450 4850 3450
-Text Label 4850 3450 0    50   ~ 0
-A1
-Wire Wire Line
-	5100 3600 4850 3600
-Text Label 4850 3600 0    50   ~ 0
-A2
-Wire Wire Line
-	5100 3750 4850 3750
-Text Label 4850 3750 0    50   ~ 0
-A3
-Wire Wire Line
-	5100 3900 4850 3900
-Text Label 4850 3900 0    50   ~ 0
-A4
-Wire Wire Line
-	5100 4050 4850 4050
-Text Label 4850 4050 0    50   ~ 0
-A5
-Wire Wire Line
-	5100 4200 4850 4200
-Text Label 4850 4200 0    50   ~ 0
-A6
-Wire Wire Line
-	5100 4350 4850 4350
-Text Label 4850 4350 0    50   ~ 0
-A7
-Text Label 5850 5400 2    50   ~ 0
-K0
-Wire Wire Line
-	5100 4500 4850 4500
-Text Label 4850 4500 0    50   ~ 0
-A8
-Wire Wire Line
-	5100 4650 4850 4650
-Text Label 4850 4650 0    50   ~ 0
-A9
-Wire Wire Line
-	5100 4800 4850 4800
-Text Label 4850 4800 0    50   ~ 0
-A10
-Wire Wire Line
-	5100 4950 4850 4950
-Text Label 4850 4950 0    50   ~ 0
-A11
-Wire Wire Line
-	5100 5100 4850 5100
-Text Label 4850 5100 0    50   ~ 0
-A12
-Wire Wire Line
-	5100 5250 4850 5250
-Text Label 4850 5250 0    50   ~ 0
-A13
-Wire Wire Line
-	5100 5400 4850 5400
-Text Label 4850 5400 0    50   ~ 0
+	9300 5300 9050 5300
+Text Label 9050 5150 0    50   ~ 0
 A15
 Wire Wire Line
-	5850 5400 5650 5400
+	9300 5150 9050 5150
+Text Label 9050 5000 0    50   ~ 0
+A12
+Wire Wire Line
+	9300 5000 9050 5000
+Text Label 9050 4850 0    50   ~ 0
+A11
+Wire Wire Line
+	9300 4850 9050 4850
+Text Label 9050 4700 0    50   ~ 0
+A10
+Wire Wire Line
+	9300 4700 9050 4700
+Text Label 9050 4550 0    50   ~ 0
+A9
+Wire Wire Line
+	9300 4550 9050 4550
+Text Label 9050 4400 0    50   ~ 0
+A8
+Wire Wire Line
+	9300 4400 9050 4400
+Text Label 10050 5300 2    50   ~ 0
+K13
+Text Label 9050 4250 0    50   ~ 0
+A7
+Wire Wire Line
+	9300 4250 9050 4250
+Text Label 9050 4100 0    50   ~ 0
+A6
+Wire Wire Line
+	9300 4100 9050 4100
+Text Label 9050 3950 0    50   ~ 0
+A5
+Wire Wire Line
+	9300 3950 9050 3950
+Text Label 9050 3800 0    50   ~ 0
+A4
+Wire Wire Line
+	9300 3800 9050 3800
+Text Label 9050 3650 0    50   ~ 0
+A3
+Wire Wire Line
+	9300 3650 9050 3650
+Text Label 9050 3500 0    50   ~ 0
+A2
+Wire Wire Line
+	9300 3500 9050 3500
+Text Label 9050 3350 0    50   ~ 0
+A1
+Wire Wire Line
+	9300 3350 9050 3350
+Text Label 9050 3200 0    50   ~ 0
+A0
+Wire Wire Line
+	9300 3200 9050 3200
+$Sheet
+S 9300 3100 550  2300
+U 5F997870
+F0 "Column 13" 50
+F1 "column.sch" 50
+F2 "A0" I L 9300 3200 50 
+F3 "A1" I L 9300 3350 50 
+F4 "A2" I L 9300 3500 50 
+F5 "A3" I L 9300 3650 50 
+F6 "A4" I L 9300 3800 50 
+F7 "A5" I L 9300 3950 50 
+F8 "A6" I L 9300 4100 50 
+F9 "A7" I L 9300 4250 50 
+F10 "K" I R 9850 5300 50 
+F11 "A8" I L 9300 4400 50 
+F12 "A9" I L 9300 4550 50 
+F13 "A10" I L 9300 4700 50 
+F14 "A11" I L 9300 4850 50 
+F15 "A12" I L 9300 5000 50 
+F16 "A13" I L 9300 5150 50 
+F17 "A14" I L 9300 5300 50 
+$EndSheet
+Wire Wire Line
+	9000 5300 8800 5300
+Text Label 8000 5300 0    50   ~ 0
+A14
+Wire Wire Line
+	8250 5300 8000 5300
+Text Label 8000 5150 0    50   ~ 0
+A13
+Wire Wire Line
+	8250 5150 8000 5150
+Text Label 8000 5000 0    50   ~ 0
+A15
+Wire Wire Line
+	8250 5000 8000 5000
+Text Label 8000 4850 0    50   ~ 0
+A11
+Wire Wire Line
+	8250 4850 8000 4850
+Text Label 8000 4700 0    50   ~ 0
+A10
+Wire Wire Line
+	8250 4700 8000 4700
+Text Label 8000 4550 0    50   ~ 0
+A9
+Wire Wire Line
+	8250 4550 8000 4550
+Text Label 8000 4400 0    50   ~ 0
+A8
+Wire Wire Line
+	8250 4400 8000 4400
+Text Label 9000 5300 2    50   ~ 0
+K12
+Text Label 8000 4250 0    50   ~ 0
+A7
+Wire Wire Line
+	8250 4250 8000 4250
+Text Label 8000 4100 0    50   ~ 0
+A6
+Wire Wire Line
+	8250 4100 8000 4100
+Text Label 8000 3950 0    50   ~ 0
+A5
+Wire Wire Line
+	8250 3950 8000 3950
+Text Label 8000 3800 0    50   ~ 0
+A4
+Wire Wire Line
+	8250 3800 8000 3800
+Text Label 8000 3650 0    50   ~ 0
+A3
+Wire Wire Line
+	8250 3650 8000 3650
+Text Label 8000 3500 0    50   ~ 0
+A2
+Wire Wire Line
+	8250 3500 8000 3500
+Text Label 8000 3350 0    50   ~ 0
+A1
+Wire Wire Line
+	8250 3350 8000 3350
+Text Label 8000 3200 0    50   ~ 0
+A0
+Wire Wire Line
+	8250 3200 8000 3200
+$Sheet
+S 8250 3100 550  2300
+U 5F982593
+F0 "Column 12" 50
+F1 "column.sch" 50
+F2 "A0" I L 8250 3200 50 
+F3 "A1" I L 8250 3350 50 
+F4 "A2" I L 8250 3500 50 
+F5 "A3" I L 8250 3650 50 
+F6 "A4" I L 8250 3800 50 
+F7 "A5" I L 8250 3950 50 
+F8 "A6" I L 8250 4100 50 
+F9 "A7" I L 8250 4250 50 
+F10 "K" I R 8800 5300 50 
+F11 "A8" I L 8250 4400 50 
+F12 "A9" I L 8250 4550 50 
+F13 "A10" I L 8250 4700 50 
+F14 "A11" I L 8250 4850 50 
+F15 "A12" I L 8250 5000 50 
+F16 "A13" I L 8250 5150 50 
+F17 "A14" I L 8250 5300 50 
+$EndSheet
+Wire Wire Line
+	7950 5300 7750 5300
+Text Label 6950 5300 0    50   ~ 0
+A14
+Wire Wire Line
+	7200 5300 6950 5300
+Text Label 6950 5150 0    50   ~ 0
+A13
+Wire Wire Line
+	7200 5150 6950 5150
+Text Label 6950 5000 0    50   ~ 0
+A12
+Wire Wire Line
+	7200 5000 6950 5000
+Text Label 6950 4850 0    50   ~ 0
+A15
+Wire Wire Line
+	7200 4850 6950 4850
+Text Label 6950 4700 0    50   ~ 0
+A10
+Wire Wire Line
+	7200 4700 6950 4700
+Text Label 6950 4550 0    50   ~ 0
+A9
+Wire Wire Line
+	7200 4550 6950 4550
+Text Label 6950 4400 0    50   ~ 0
+A8
+Wire Wire Line
+	7200 4400 6950 4400
+Text Label 7950 5300 2    50   ~ 0
+K11
+Text Label 6950 4250 0    50   ~ 0
+A7
+Wire Wire Line
+	7200 4250 6950 4250
+Text Label 6950 4100 0    50   ~ 0
+A6
+Wire Wire Line
+	7200 4100 6950 4100
+Text Label 6950 3950 0    50   ~ 0
+A5
+Wire Wire Line
+	7200 3950 6950 3950
+Text Label 6950 3800 0    50   ~ 0
+A4
+Wire Wire Line
+	7200 3800 6950 3800
+Text Label 6950 3650 0    50   ~ 0
+A3
+Wire Wire Line
+	7200 3650 6950 3650
+Text Label 6950 3500 0    50   ~ 0
+A2
+Wire Wire Line
+	7200 3500 6950 3500
+Text Label 6950 3350 0    50   ~ 0
+A1
+Wire Wire Line
+	7200 3350 6950 3350
+Text Label 6950 3200 0    50   ~ 0
+A0
+Wire Wire Line
+	7200 3200 6950 3200
+$Sheet
+S 7200 3100 550  2300
+U 5F970ED3
+F0 "Column 11" 50
+F1 "column.sch" 50
+F2 "A0" I L 7200 3200 50 
+F3 "A1" I L 7200 3350 50 
+F4 "A2" I L 7200 3500 50 
+F5 "A3" I L 7200 3650 50 
+F6 "A4" I L 7200 3800 50 
+F7 "A5" I L 7200 3950 50 
+F8 "A6" I L 7200 4100 50 
+F9 "A7" I L 7200 4250 50 
+F10 "K" I R 7750 5300 50 
+F11 "A8" I L 7200 4400 50 
+F12 "A9" I L 7200 4550 50 
+F13 "A10" I L 7200 4700 50 
+F14 "A11" I L 7200 4850 50 
+F15 "A12" I L 7200 5000 50 
+F16 "A13" I L 7200 5150 50 
+F17 "A14" I L 7200 5300 50 
+$EndSheet
+Wire Wire Line
+	6900 5300 6700 5300
+Text Label 5900 5300 0    50   ~ 0
+A14
+Wire Wire Line
+	6150 5300 5900 5300
+Text Label 5900 5150 0    50   ~ 0
+A13
+Wire Wire Line
+	6150 5150 5900 5150
+Text Label 5900 5000 0    50   ~ 0
+A12
+Wire Wire Line
+	6150 5000 5900 5000
+Text Label 5900 4850 0    50   ~ 0
+A11
+Wire Wire Line
+	6150 4850 5900 4850
+Text Label 5900 4700 0    50   ~ 0
+A15
+Wire Wire Line
+	6150 4700 5900 4700
+Text Label 5900 4550 0    50   ~ 0
+A9
+Wire Wire Line
+	6150 4550 5900 4550
+Text Label 5900 4400 0    50   ~ 0
+A8
+Wire Wire Line
+	6150 4400 5900 4400
+Text Label 6900 5300 2    50   ~ 0
+K10
+Text Label 5900 4250 0    50   ~ 0
+A7
+Wire Wire Line
+	6150 4250 5900 4250
+Text Label 5900 4100 0    50   ~ 0
+A6
+Wire Wire Line
+	6150 4100 5900 4100
+Text Label 5900 3950 0    50   ~ 0
+A5
+Wire Wire Line
+	6150 3950 5900 3950
+Text Label 5900 3800 0    50   ~ 0
+A4
+Wire Wire Line
+	6150 3800 5900 3800
+Text Label 5900 3650 0    50   ~ 0
+A3
+Wire Wire Line
+	6150 3650 5900 3650
+Text Label 5900 3500 0    50   ~ 0
+A2
+Wire Wire Line
+	6150 3500 5900 3500
+Text Label 5900 3350 0    50   ~ 0
+A1
+Wire Wire Line
+	6150 3350 5900 3350
+Text Label 5900 3200 0    50   ~ 0
+A0
+Wire Wire Line
+	6150 3200 5900 3200
+$Sheet
+S 6150 3100 550  2300
+U 5F96367C
+F0 "Column 10" 50
+F1 "column.sch" 50
+F2 "A0" I L 6150 3200 50 
+F3 "A1" I L 6150 3350 50 
+F4 "A2" I L 6150 3500 50 
+F5 "A3" I L 6150 3650 50 
+F6 "A4" I L 6150 3800 50 
+F7 "A5" I L 6150 3950 50 
+F8 "A6" I L 6150 4100 50 
+F9 "A7" I L 6150 4250 50 
+F10 "K" I R 6700 5300 50 
+F11 "A8" I L 6150 4400 50 
+F12 "A9" I L 6150 4550 50 
+F13 "A10" I L 6150 4700 50 
+F14 "A11" I L 6150 4850 50 
+F15 "A12" I L 6150 5000 50 
+F16 "A13" I L 6150 5150 50 
+F17 "A14" I L 6150 5300 50 
+$EndSheet
+Wire Wire Line
+	11100 2800 10900 2800
+Text Label 10100 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	10350 2800 10100 2800
+Text Label 10100 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	10350 2650 10100 2650
+Text Label 10100 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	10350 2500 10100 2500
+Text Label 10100 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	10350 2350 10100 2350
+Text Label 10100 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	10350 2200 10100 2200
+Text Label 10100 2050 0    50   ~ 0
+A15
+Wire Wire Line
+	10350 2050 10100 2050
+Text Label 10100 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	10350 1900 10100 1900
+Text Label 11100 2800 2    50   ~ 0
+K9
+Text Label 10100 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	10350 1750 10100 1750
+Text Label 10100 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	10350 1600 10100 1600
+Text Label 10100 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	10350 1450 10100 1450
+Text Label 10100 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	10350 1300 10100 1300
+Text Label 10100 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	10350 1150 10100 1150
+Text Label 10100 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	10350 1000 10100 1000
+Text Label 10100 850  0    50   ~ 0
+A1
+Wire Wire Line
+	10350 850  10100 850 
+Text Label 10100 700  0    50   ~ 0
+A0
+Wire Wire Line
+	10350 700  10100 700 
+$Sheet
+S 10350 600  550  2300
+U 5F959827
+F0 "Column 9" 50
+F1 "column.sch" 50
+F2 "A0" I L 10350 700 50 
+F3 "A1" I L 10350 850 50 
+F4 "A2" I L 10350 1000 50 
+F5 "A3" I L 10350 1150 50 
+F6 "A4" I L 10350 1300 50 
+F7 "A5" I L 10350 1450 50 
+F8 "A6" I L 10350 1600 50 
+F9 "A7" I L 10350 1750 50 
+F10 "K" I R 10900 2800 50 
+F11 "A8" I L 10350 1900 50 
+F12 "A9" I L 10350 2050 50 
+F13 "A10" I L 10350 2200 50 
+F14 "A11" I L 10350 2350 50 
+F15 "A12" I L 10350 2500 50 
+F16 "A13" I L 10350 2650 50 
+F17 "A14" I L 10350 2800 50 
+$EndSheet
+Wire Wire Line
+	10050 2800 9850 2800
+Text Label 9050 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	9300 2800 9050 2800
+Text Label 9050 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	9300 2650 9050 2650
+Text Label 9050 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	9300 2500 9050 2500
+Text Label 9050 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	9300 2350 9050 2350
+Text Label 9050 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	9300 2200 9050 2200
+Text Label 9050 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	9300 2050 9050 2050
+Text Label 9050 1900 0    50   ~ 0
+A15
+Wire Wire Line
+	9300 1900 9050 1900
+Text Label 10050 2800 2    50   ~ 0
+K8
+Text Label 9050 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	9300 1750 9050 1750
+Text Label 9050 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	9300 1600 9050 1600
+Text Label 9050 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	9300 1450 9050 1450
+Text Label 9050 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	9300 1300 9050 1300
+Text Label 9050 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	9300 1150 9050 1150
+Text Label 9050 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	9300 1000 9050 1000
+Text Label 9050 850  0    50   ~ 0
+A1
+Wire Wire Line
+	9300 850  9050 850 
+Text Label 9050 700  0    50   ~ 0
+A0
+Wire Wire Line
+	9300 700  9050 700 
+$Sheet
+S 9300 600  550  2300
+U 5F951450
+F0 "Column 8" 50
+F1 "column.sch" 50
+F2 "A0" I L 9300 700 50 
+F3 "A1" I L 9300 850 50 
+F4 "A2" I L 9300 1000 50 
+F5 "A3" I L 9300 1150 50 
+F6 "A4" I L 9300 1300 50 
+F7 "A5" I L 9300 1450 50 
+F8 "A6" I L 9300 1600 50 
+F9 "A7" I L 9300 1750 50 
+F10 "K" I R 9850 2800 50 
+F11 "A8" I L 9300 1900 50 
+F12 "A9" I L 9300 2050 50 
+F13 "A10" I L 9300 2200 50 
+F14 "A11" I L 9300 2350 50 
+F15 "A12" I L 9300 2500 50 
+F16 "A13" I L 9300 2650 50 
+F17 "A14" I L 9300 2800 50 
+$EndSheet
+Wire Wire Line
+	9000 2800 8800 2800
+Text Label 8000 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	8250 2800 8000 2800
+Text Label 8000 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	8250 2650 8000 2650
+Text Label 8000 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	8250 2500 8000 2500
+Text Label 8000 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	8250 2350 8000 2350
+Text Label 8000 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	8250 2200 8000 2200
+Text Label 8000 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	8250 2050 8000 2050
+Text Label 8000 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	8250 1900 8000 1900
+Text Label 9000 2800 2    50   ~ 0
+K7
+Text Label 8000 1750 0    50   ~ 0
+A15
+Wire Wire Line
+	8250 1750 8000 1750
+Text Label 8000 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	8250 1600 8000 1600
+Text Label 8000 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	8250 1450 8000 1450
+Text Label 8000 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	8250 1300 8000 1300
+Text Label 8000 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	8250 1150 8000 1150
+Text Label 8000 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	8250 1000 8000 1000
+Text Label 8000 850  0    50   ~ 0
+A1
+Wire Wire Line
+	8250 850  8000 850 
+Text Label 8000 700  0    50   ~ 0
+A0
+Wire Wire Line
+	8250 700  8000 700 
+$Sheet
+S 8250 600  550  2300
+U 5F94AD53
+F0 "Column 7" 50
+F1 "column.sch" 50
+F2 "A0" I L 8250 700 50 
+F3 "A1" I L 8250 850 50 
+F4 "A2" I L 8250 1000 50 
+F5 "A3" I L 8250 1150 50 
+F6 "A4" I L 8250 1300 50 
+F7 "A5" I L 8250 1450 50 
+F8 "A6" I L 8250 1600 50 
+F9 "A7" I L 8250 1750 50 
+F10 "K" I R 8800 2800 50 
+F11 "A8" I L 8250 1900 50 
+F12 "A9" I L 8250 2050 50 
+F13 "A10" I L 8250 2200 50 
+F14 "A11" I L 8250 2350 50 
+F15 "A12" I L 8250 2500 50 
+F16 "A13" I L 8250 2650 50 
+F17 "A14" I L 8250 2800 50 
+$EndSheet
+Wire Wire Line
+	7950 2800 7750 2800
+Text Label 6950 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	7200 2800 6950 2800
+Text Label 6950 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	7200 2650 6950 2650
+Text Label 6950 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	7200 2500 6950 2500
+Text Label 6950 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	7200 2350 6950 2350
+Text Label 6950 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	7200 2200 6950 2200
+Text Label 6950 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	7200 2050 6950 2050
+Text Label 6950 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	7200 1900 6950 1900
+Text Label 7950 2800 2    50   ~ 0
+K6
+Text Label 6950 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	7200 1750 6950 1750
+Text Label 6950 1600 0    50   ~ 0
+A15
+Wire Wire Line
+	7200 1600 6950 1600
+Text Label 6950 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	7200 1450 6950 1450
+Text Label 6950 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	7200 1300 6950 1300
+Text Label 6950 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	7200 1150 6950 1150
+Text Label 6950 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	7200 1000 6950 1000
+Text Label 6950 850  0    50   ~ 0
+A1
+Wire Wire Line
+	7200 850  6950 850 
+Text Label 6950 700  0    50   ~ 0
+A0
+Wire Wire Line
+	7200 700  6950 700 
+$Sheet
+S 7200 600  550  2300
+U 5F944D0C
+F0 "Column 6" 50
+F1 "column.sch" 50
+F2 "A0" I L 7200 700 50 
+F3 "A1" I L 7200 850 50 
+F4 "A2" I L 7200 1000 50 
+F5 "A3" I L 7200 1150 50 
+F6 "A4" I L 7200 1300 50 
+F7 "A5" I L 7200 1450 50 
+F8 "A6" I L 7200 1600 50 
+F9 "A7" I L 7200 1750 50 
+F10 "K" I R 7750 2800 50 
+F11 "A8" I L 7200 1900 50 
+F12 "A9" I L 7200 2050 50 
+F13 "A10" I L 7200 2200 50 
+F14 "A11" I L 7200 2350 50 
+F15 "A12" I L 7200 2500 50 
+F16 "A13" I L 7200 2650 50 
+F17 "A14" I L 7200 2800 50 
+$EndSheet
+Wire Wire Line
+	6900 2800 6700 2800
+Text Label 5900 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	6150 2800 5900 2800
+Text Label 5900 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	6150 2650 5900 2650
+Text Label 5900 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	6150 2500 5900 2500
+Text Label 5900 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	6150 2350 5900 2350
+Text Label 5900 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	6150 2200 5900 2200
+Text Label 5900 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	6150 2050 5900 2050
+Text Label 5900 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	6150 1900 5900 1900
+Text Label 6900 2800 2    50   ~ 0
+K5
+Text Label 5900 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	6150 1750 5900 1750
+Text Label 5900 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	6150 1600 5900 1600
+Text Label 5900 1450 0    50   ~ 0
+A15
+Wire Wire Line
+	6150 1450 5900 1450
+Text Label 5900 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	6150 1300 5900 1300
+Text Label 5900 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	6150 1150 5900 1150
+Text Label 5900 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	6150 1000 5900 1000
+Text Label 5900 850  0    50   ~ 0
+A1
+Wire Wire Line
+	6150 850  5900 850 
+Text Label 5900 700  0    50   ~ 0
+A0
+Wire Wire Line
+	6150 700  5900 700 
+$Sheet
+S 6150 600  550  2300
+U 5F941166
+F0 "Column 5" 50
+F1 "column.sch" 50
+F2 "A0" I L 6150 700 50 
+F3 "A1" I L 6150 850 50 
+F4 "A2" I L 6150 1000 50 
+F5 "A3" I L 6150 1150 50 
+F6 "A4" I L 6150 1300 50 
+F7 "A5" I L 6150 1450 50 
+F8 "A6" I L 6150 1600 50 
+F9 "A7" I L 6150 1750 50 
+F10 "K" I R 6700 2800 50 
+F11 "A8" I L 6150 1900 50 
+F12 "A9" I L 6150 2050 50 
+F13 "A10" I L 6150 2200 50 
+F14 "A11" I L 6150 2350 50 
+F15 "A12" I L 6150 2500 50 
+F16 "A13" I L 6150 2650 50 
+F17 "A14" I L 6150 2800 50 
+$EndSheet
+Wire Wire Line
+	5850 2800 5650 2800
+Text Label 4850 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	5100 2800 4850 2800
+Text Label 4850 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	5100 2650 4850 2650
+Text Label 4850 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	5100 2500 4850 2500
+Text Label 4850 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	5100 2350 4850 2350
+Text Label 4850 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	5100 2200 4850 2200
+Text Label 4850 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	5100 2050 4850 2050
+Text Label 4850 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	5100 1900 4850 1900
+Text Label 5850 2800 2    50   ~ 0
+K4
+Text Label 4850 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	5100 1750 4850 1750
+Text Label 4850 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	5100 1600 4850 1600
+Text Label 4850 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	5100 1450 4850 1450
+Text Label 4850 1300 0    50   ~ 0
+A15
+Wire Wire Line
+	5100 1300 4850 1300
+Text Label 4850 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	5100 1150 4850 1150
+Text Label 4850 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	5100 1000 4850 1000
+Text Label 4850 850  0    50   ~ 0
+A1
+Wire Wire Line
+	5100 850  4850 850 
+Text Label 4850 700  0    50   ~ 0
+A0
+Wire Wire Line
+	5100 700  4850 700 
+$Sheet
+S 5100 600  550  2300
+U 5F93E254
+F0 "Column 4" 50
+F1 "column.sch" 50
+F2 "A0" I L 5100 700 50 
+F3 "A1" I L 5100 850 50 
+F4 "A2" I L 5100 1000 50 
+F5 "A3" I L 5100 1150 50 
+F6 "A4" I L 5100 1300 50 
+F7 "A5" I L 5100 1450 50 
+F8 "A6" I L 5100 1600 50 
+F9 "A7" I L 5100 1750 50 
+F10 "K" I R 5650 2800 50 
+F11 "A8" I L 5100 1900 50 
+F12 "A9" I L 5100 2050 50 
+F13 "A10" I L 5100 2200 50 
+F14 "A11" I L 5100 2350 50 
+F15 "A12" I L 5100 2500 50 
+F16 "A13" I L 5100 2650 50 
+F17 "A14" I L 5100 2800 50 
+$EndSheet
+Wire Wire Line
+	4800 2800 4600 2800
+Text Label 3800 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	4050 2800 3800 2800
+Text Label 3800 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	4050 2650 3800 2650
+Text Label 3800 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	4050 2500 3800 2500
+Text Label 3800 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	4050 2350 3800 2350
+Text Label 3800 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	4050 2200 3800 2200
+Text Label 3800 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	4050 2050 3800 2050
+Text Label 3800 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	4050 1900 3800 1900
+Text Label 4800 2800 2    50   ~ 0
+K3
+Text Label 3800 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	4050 1750 3800 1750
+Text Label 3800 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	4050 1600 3800 1600
+Text Label 3800 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	4050 1450 3800 1450
+Text Label 3800 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	4050 1300 3800 1300
+Text Label 3800 1150 0    50   ~ 0
+A15
+Wire Wire Line
+	4050 1150 3800 1150
+Text Label 3800 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	4050 1000 3800 1000
+Text Label 3800 850  0    50   ~ 0
+A1
+Wire Wire Line
+	4050 850  3800 850 
+Text Label 3800 700  0    50   ~ 0
+A0
+Wire Wire Line
+	4050 700  3800 700 
+$Sheet
+S 4050 600  550  2300
+U 5F93B525
+F0 "Column 3" 50
+F1 "column.sch" 50
+F2 "A0" I L 4050 700 50 
+F3 "A1" I L 4050 850 50 
+F4 "A2" I L 4050 1000 50 
+F5 "A3" I L 4050 1150 50 
+F6 "A4" I L 4050 1300 50 
+F7 "A5" I L 4050 1450 50 
+F8 "A6" I L 4050 1600 50 
+F9 "A7" I L 4050 1750 50 
+F10 "K" I R 4600 2800 50 
+F11 "A8" I L 4050 1900 50 
+F12 "A9" I L 4050 2050 50 
+F13 "A10" I L 4050 2200 50 
+F14 "A11" I L 4050 2350 50 
+F15 "A12" I L 4050 2500 50 
+F16 "A13" I L 4050 2650 50 
+F17 "A14" I L 4050 2800 50 
+$EndSheet
+Wire Wire Line
+	3750 2800 3550 2800
+Text Label 2750 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	3000 2800 2750 2800
+Text Label 2750 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	3000 2650 2750 2650
+Text Label 2750 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	3000 2500 2750 2500
+Text Label 2750 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	3000 2350 2750 2350
+Text Label 2750 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	3000 2200 2750 2200
+Text Label 2750 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	3000 2050 2750 2050
+Text Label 2750 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	3000 1900 2750 1900
+Text Label 3750 2800 2    50   ~ 0
+K2
+Text Label 2750 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	3000 1750 2750 1750
+Text Label 2750 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	3000 1600 2750 1600
+Text Label 2750 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	3000 1450 2750 1450
+Text Label 2750 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	3000 1300 2750 1300
+Text Label 2750 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	3000 1150 2750 1150
+Text Label 2750 1000 0    50   ~ 0
+A15
+Wire Wire Line
+	3000 1000 2750 1000
+Text Label 2750 850  0    50   ~ 0
+A1
+Wire Wire Line
+	3000 850  2750 850 
+Text Label 2750 700  0    50   ~ 0
+A0
+Wire Wire Line
+	3000 700  2750 700 
+$Sheet
+S 3000 600  550  2300
+U 5F939D1F
+F0 "Column 2" 50
+F1 "column.sch" 50
+F2 "A0" I L 3000 700 50 
+F3 "A1" I L 3000 850 50 
+F4 "A2" I L 3000 1000 50 
+F5 "A3" I L 3000 1150 50 
+F6 "A4" I L 3000 1300 50 
+F7 "A5" I L 3000 1450 50 
+F8 "A6" I L 3000 1600 50 
+F9 "A7" I L 3000 1750 50 
+F10 "K" I R 3550 2800 50 
+F11 "A8" I L 3000 1900 50 
+F12 "A9" I L 3000 2050 50 
+F13 "A10" I L 3000 2200 50 
+F14 "A11" I L 3000 2350 50 
+F15 "A12" I L 3000 2500 50 
+F16 "A13" I L 3000 2650 50 
+F17 "A14" I L 3000 2800 50 
+$EndSheet
+Wire Wire Line
+	2700 2800 2500 2800
+Text Label 1700 2800 0    50   ~ 0
+A14
+Wire Wire Line
+	1950 2800 1700 2800
+Text Label 1700 2650 0    50   ~ 0
+A13
+Wire Wire Line
+	1950 2650 1700 2650
+Text Label 1700 2500 0    50   ~ 0
+A12
+Wire Wire Line
+	1950 2500 1700 2500
+Text Label 1700 2350 0    50   ~ 0
+A11
+Wire Wire Line
+	1950 2350 1700 2350
+Text Label 1700 2200 0    50   ~ 0
+A10
+Wire Wire Line
+	1950 2200 1700 2200
+Text Label 1700 2050 0    50   ~ 0
+A9
+Wire Wire Line
+	1950 2050 1700 2050
+Text Label 1700 1900 0    50   ~ 0
+A8
+Wire Wire Line
+	1950 1900 1700 1900
+Text Label 2700 2800 2    50   ~ 0
+K1
+Text Label 1700 1750 0    50   ~ 0
+A7
+Wire Wire Line
+	1950 1750 1700 1750
+Text Label 1700 1600 0    50   ~ 0
+A6
+Wire Wire Line
+	1950 1600 1700 1600
+Text Label 1700 1450 0    50   ~ 0
+A5
+Wire Wire Line
+	1950 1450 1700 1450
+Text Label 1700 1300 0    50   ~ 0
+A4
+Wire Wire Line
+	1950 1300 1700 1300
+Text Label 1700 1150 0    50   ~ 0
+A3
+Wire Wire Line
+	1950 1150 1700 1150
+Text Label 1700 1000 0    50   ~ 0
+A2
+Wire Wire Line
+	1950 1000 1700 1000
+Text Label 1700 850  0    50   ~ 0
+A15
+Wire Wire Line
+	1950 850  1700 850 
+Text Label 1700 700  0    50   ~ 0
+A0
+Wire Wire Line
+	1950 700  1700 700 
+$Sheet
+S 1950 600  550  2300
+U 5F938E39
+F0 "Column 1" 50
+F1 "column.sch" 50
+F2 "A0" I L 1950 700 50 
+F3 "A1" I L 1950 850 50 
+F4 "A2" I L 1950 1000 50 
+F5 "A3" I L 1950 1150 50 
+F6 "A4" I L 1950 1300 50 
+F7 "A5" I L 1950 1450 50 
+F8 "A6" I L 1950 1600 50 
+F9 "A7" I L 1950 1750 50 
+F10 "K" I R 2500 2800 50 
+F11 "A8" I L 1950 1900 50 
+F12 "A9" I L 1950 2050 50 
+F13 "A10" I L 1950 2200 50 
+F14 "A11" I L 1950 2350 50 
+F15 "A12" I L 1950 2500 50 
+F16 "A13" I L 1950 2650 50 
+F17 "A14" I L 1950 2800 50 
+$EndSheet
+Wire Wire Line
+	1650 2800 1450 2800
+Text Label 650  2800 0    50   ~ 0
+A14
+Wire Wire Line
+	900  2800 650  2800
+Text Label 650  2650 0    50   ~ 0
+A13
+Wire Wire Line
+	900  2650 650  2650
+Text Label 650  2500 0    50   ~ 0
+A12
+Wire Wire Line
+	900  2500 650  2500
+Text Label 650  2350 0    50   ~ 0
+A11
+Wire Wire Line
+	900  2350 650  2350
+Text Label 650  2200 0    50   ~ 0
+A10
+Wire Wire Line
+	900  2200 650  2200
+Text Label 650  2050 0    50   ~ 0
+A9
+Wire Wire Line
+	900  2050 650  2050
+Text Label 650  1900 0    50   ~ 0
+A8
+Wire Wire Line
+	900  1900 650  1900
+Text Label 1650 2800 2    50   ~ 0
+K0
+Text Label 650  1750 0    50   ~ 0
+A7
+Wire Wire Line
+	900  1750 650  1750
+Text Label 650  1600 0    50   ~ 0
+A6
+Wire Wire Line
+	900  1600 650  1600
+Text Label 650  1450 0    50   ~ 0
+A5
+Wire Wire Line
+	900  1450 650  1450
+Text Label 650  1300 0    50   ~ 0
+A4
+Wire Wire Line
+	900  1300 650  1300
+Text Label 650  1150 0    50   ~ 0
+A3
+Wire Wire Line
+	900  1150 650  1150
+Text Label 650  1000 0    50   ~ 0
+A2
+Wire Wire Line
+	900  1000 650  1000
+Text Label 650  850  0    50   ~ 0
+A1
+Wire Wire Line
+	900  850  650  850 
+Text Label 650  700  0    50   ~ 0
+A15
+Wire Wire Line
+	900  700  650  700 
+$Sheet
+S 900  600  550  2300
+U 5F9266B4
+F0 "Column 0" 50
+F1 "column.sch" 50
+F2 "A0" I L 900 700 50 
+F3 "A1" I L 900 850 50 
+F4 "A2" I L 900 1000 50 
+F5 "A3" I L 900 1150 50 
+F6 "A4" I L 900 1300 50 
+F7 "A5" I L 900 1450 50 
+F8 "A6" I L 900 1600 50 
+F9 "A7" I L 900 1750 50 
+F10 "K" I R 1450 2800 50 
+F11 "A8" I L 900 1900 50 
+F12 "A9" I L 900 2050 50 
+F13 "A10" I L 900 2200 50 
+F14 "A11" I L 900 2350 50 
+F15 "A12" I L 900 2500 50 
+F16 "A13" I L 900 2650 50 
+F17 "A14" I L 900 2800 50 
+$EndSheet
 $Comp
-L MCU_ST_STM32L4:STM32L431CBTx U?
-U 1 1 5F9CCA7C
-P 8050 4750
-F 0 "U?" H 7650 6100 50  0000 C CNN
-F 1 "STM32L431CBTx" H 8200 5250 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 7550 3350 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf" H 8050 4750 50  0001 C CNN
-	1    8050 4750
+L Device:R_Pack04 RN1
+U 1 1 5FA4D391
+P 2900 5800
+F 0 "RN1" V 3225 5800 50  0000 C CNN
+F 1 "1kR" V 3134 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 3175 5800 50  0001 C CNN
+F 3 "~" H 2900 5800 50  0001 C CNN
+F 4 "C25726" V 2900 5800 50  0001 C CNN "LCSC"
+	1    2900 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3300 5700 3100 5700
+Text Label 3100 5700 0    50   ~ 0
+K0
+Wire Wire Line
+	3300 5800 3100 5800
+Text Label 3100 5800 0    50   ~ 0
+K1
+Wire Wire Line
+	3300 5900 3100 5900
+Text Label 3100 5900 0    50   ~ 0
+K2
+Wire Wire Line
+	3300 6000 3100 6000
+Text Label 3100 6000 0    50   ~ 0
+K3
+Wire Wire Line
+	3300 6100 3100 6100
+Text Label 3100 6100 0    50   ~ 0
+K4
+Wire Wire Line
+	3300 6200 3100 6200
+Text Label 3100 6200 0    50   ~ 0
+K5
+Wire Wire Line
+	3300 6300 3100 6300
+Text Label 3100 6300 0    50   ~ 0
+K6
+Wire Wire Line
+	3300 6400 3100 6400
+Text Label 3100 6400 0    50   ~ 0
+K7
+Wire Wire Line
+	3300 6500 3100 6500
+Text Label 3100 6500 0    50   ~ 0
+K8
+Wire Wire Line
+	3300 6600 3100 6600
+Text Label 3100 6600 0    50   ~ 0
+K9
+Wire Wire Line
+	3300 6700 3100 6700
+Text Label 3100 6700 0    50   ~ 0
+K10
+Wire Wire Line
+	3300 6800 3100 6800
+Text Label 3100 6800 0    50   ~ 0
+K11
+Wire Wire Line
+	3300 6900 3100 6900
+Text Label 3100 6900 0    50   ~ 0
+K12
+Wire Wire Line
+	3300 7000 3100 7000
+Text Label 3100 7000 0    50   ~ 0
+K13
+Wire Wire Line
+	3300 7100 3100 7100
+Text Label 3100 7100 0    50   ~ 0
+K14
+Text Label 3250 7200 2    50   ~ 0
+K15
+Wire Wire Line
+	2700 5700 2500 5700
+Text Label 2500 5700 0    50   ~ 0
+A0
+Wire Wire Line
+	2700 5800 2500 5800
+Text Label 2500 5800 0    50   ~ 0
+A1
+Wire Wire Line
+	2700 5900 2500 5900
+Text Label 2500 5900 0    50   ~ 0
+A2
+Wire Wire Line
+	2700 6000 2500 6000
+Text Label 2500 6000 0    50   ~ 0
+A3
+Text Label 2500 6100 0    50   ~ 0
+A4
+Wire Wire Line
+	2700 6200 2500 6200
+Text Label 2500 6200 0    50   ~ 0
+A5
+Wire Wire Line
+	2700 6300 2500 6300
+Text Label 2500 6300 0    50   ~ 0
+A6
+Wire Wire Line
+	2700 6400 2500 6400
+Text Label 2500 6400 0    50   ~ 0
+A7
+Wire Wire Line
+	2700 6500 2500 6500
+Text Label 2500 6500 0    50   ~ 0
+A8
+Wire Wire Line
+	2700 6600 2500 6600
+Text Label 2500 6600 0    50   ~ 0
+A9
+Wire Wire Line
+	2700 6700 2500 6700
+Text Label 2500 6700 0    50   ~ 0
+A10
+Wire Wire Line
+	2700 6800 2500 6800
+Text Label 2500 6800 0    50   ~ 0
+A11
+Wire Wire Line
+	2700 6900 2500 6900
+Text Label 2500 6900 0    50   ~ 0
+A12
+Wire Wire Line
+	2700 7000 2500 7000
+Text Label 2500 7000 0    50   ~ 0
+A13
+Wire Wire Line
+	2700 7100 2500 7100
+Text Label 2500 7100 0    50   ~ 0
+A14
+NoConn ~ 2700 7200
+$Comp
+L power:GND #PWR0101
+U 1 1 5FE5A11E
+P 3850 7500
+F 0 "#PWR0101" H 3850 7250 50  0001 C CNN
+F 1 "GND" H 3850 7350 50  0000 C CNN
+F 2 "" H 3850 7500 50  0001 C CNN
+F 3 "" H 3850 7500 50  0001 C CNN
+	1    3850 7500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3850 7500 3850 7450
+Wire Wire Line
+	3850 7450 3800 7450
+Wire Wire Line
+	3700 7450 3700 7400
+Wire Wire Line
+	3850 7450 3900 7450
+Wire Wire Line
+	4000 7450 4000 7400
+Connection ~ 3850 7450
+Wire Wire Line
+	3900 7400 3900 7450
+Connection ~ 3900 7450
+Wire Wire Line
+	3900 7450 4000 7450
+Wire Wire Line
+	3800 7400 3800 7450
+Connection ~ 3800 7450
+Wire Wire Line
+	3800 7450 3700 7450
+$Comp
+L Device:C C2
+U 1 1 5FF28FCD
+P 3500 4350
+F 0 "C2" V 3248 4350 50  0000 C CNN
+F 1 "100nF" V 3339 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 4200 50  0001 C CNN
+F 3 "~" H 3500 4350 50  0001 C CNN
+F 4 "C1525" V 3500 4350 50  0001 C CNN "LCSC"
+	1    3500 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L MCU_ST_STM32L4:STM32L433CBTx U1
+U 1 1 5FF93659
+P 3900 5900
+F 0 "U1" H 3500 7250 50  0000 C CNN
+F 1 "STM32L433CBTx" H 4050 6400 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3400 4500 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 3900 5900 50  0001 C CNN
+F 4 "C94785" H 3900 5900 50  0001 C CNN "LCSC"
+	1    3900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 7200 3250 7200
+NoConn ~ 3100 7200
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 6000107E
+P 1300 4350
+F 0 "J1" H 1407 5217 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1407 5126 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1450 4350 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 4350 50  0001 C CNN
+	1    1300 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 6800 4650 6800
+Text Label 4650 6800 2    50   ~ 0
+D-
+Wire Wire Line
+	4500 6900 4650 6900
+Text Label 4650 6900 2    50   ~ 0
+D+
+Wire Wire Line
+	1900 4250 1950 4250
+Wire Wire Line
+	1950 4250 1950 4350
+Wire Wire Line
+	1950 4350 1900 4350
+Wire Wire Line
+	1950 4350 2100 4350
+Connection ~ 1950 4350
+Wire Wire Line
+	1900 4550 1950 4550
+Wire Wire Line
+	1950 4550 1950 4450
+Wire Wire Line
+	1950 4450 2100 4450
+Wire Wire Line
+	1900 4450 1950 4450
+Connection ~ 1950 4450
+Text Label 2100 4350 2    50   ~ 0
+D-
+Text Label 2100 4450 2    50   ~ 0
+D+
+$Comp
+L Device:R R1
+U 1 1 601477C6
+P 2150 3900
+F 0 "R1" V 1943 3900 50  0000 C CNN
+F 1 "5.1kR" V 2034 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 3900 50  0001 C CNN
+F 3 "~" H 2150 3900 50  0001 C CNN
+F 4 "C25905" V 2150 3900 50  0001 C CNN "LCSC"
+	1    2150 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 3900 1950 3900
+Wire Wire Line
+	1950 3900 1950 3950
+Wire Wire Line
+	1950 3950 1900 3950
+$Comp
+L Device:R R2
+U 1 1 6018035F
+P 2150 4100
+F 0 "R2" V 2250 4100 50  0000 C CNN
+F 1 "5.1kR" V 2350 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 4100 50  0001 C CNN
+F 3 "~" H 2150 4100 50  0001 C CNN
+F 4 "C25905" V 2150 4100 50  0001 C CNN "LCSC"
+	1    2150 4100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2000 4100 1950 4100
+Wire Wire Line
+	1950 4100 1950 4050
+Wire Wire Line
+	1950 4050 1900 4050
+$Comp
+L power:GND #PWR0102
+U 1 1 601F27B2
+P 2350 4150
+F 0 "#PWR0102" H 2350 3900 50  0001 C CNN
+F 1 "GND" H 2355 3977 50  0000 C CNN
+F 2 "" H 2350 4150 50  0001 C CNN
+F 3 "" H 2350 4150 50  0001 C CNN
+	1    2350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4150 2350 4100
+Wire Wire Line
+	2350 3900 2300 3900
+Wire Wire Line
+	2300 4100 2350 4100
+Connection ~ 2350 4100
+Wire Wire Line
+	2350 4100 2350 3900
+$Comp
+L power:+5V #PWR0103
+U 1 1 60265FCF
+P 1950 3700
+F 0 "#PWR0103" H 1950 3550 50  0001 C CNN
+F 1 "+5V" H 1965 3873 50  0000 C CNN
+F 2 "" H 1950 3700 50  0001 C CNN
+F 3 "" H 1950 3700 50  0001 C CNN
+	1    1950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3700 1950 3750
+Wire Wire Line
+	1950 3750 1900 3750
+NoConn ~ 1900 4850
+NoConn ~ 1900 4950
+$Comp
+L power:GND #PWR0104
+U 1 1 60314939
+P 1300 5350
+F 0 "#PWR0104" H 1300 5100 50  0001 C CNN
+F 1 "GND" H 1305 5177 50  0000 C CNN
+F 2 "" H 1300 5350 50  0001 C CNN
+F 3 "" H 1300 5350 50  0001 C CNN
+	1    1300 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5350 1300 5300
+Wire Wire Line
+	1300 5300 1000 5300
+Wire Wire Line
+	1000 5300 1000 5250
+Connection ~ 1300 5300
+Wire Wire Line
+	1300 5300 1300 5250
+$Comp
+L Connector_TagConnect:TagConnect_TC2030_SWD J2
+U 1 1 6038A722
+P 5450 7100
+F 0 "J2" H 5450 7425 50  0000 C CNN
+F 1 "TagConnect_TC2030_SWD" H 5450 7334 50  0000 C CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 5450 7100 50  0001 C CNN
+F 3 "" H 5450 7100 50  0001 C CNN
+	1    5450 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60449DA4
+P 6000 7250
+F 0 "#PWR0105" H 6000 7000 50  0001 C CNN
+F 1 "GND" H 6005 7077 50  0000 C CNN
+F 2 "" H 6000 7250 50  0001 C CNN
+F 3 "" H 6000 7250 50  0001 C CNN
+	1    6000 7250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7200 6000 7200
+Wire Wire Line
+	6000 7200 6000 7250
+Wire Wire Line
+	4950 7000 4500 7000
+Wire Wire Line
+	4500 7100 4950 7100
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 605E8AEC
+P 6000 6950
+F 0 "#PWR0106" H 6000 6800 50  0001 C CNN
+F 1 "+3V3" H 6015 7123 50  0000 C CNN
+F 2 "" H 6000 6950 50  0001 C CNN
+F 3 "" H 6000 6950 50  0001 C CNN
+	1    6000 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6950 6000 7000
+Wire Wire Line
+	6000 7000 5950 7000
+$Comp
+L power:+5V #PWR0107
+U 1 1 60624B97
+P 4900 6950
+F 0 "#PWR0107" H 4900 6800 50  0001 C CNN
+F 1 "+5V" H 4915 7123 50  0000 C CNN
+F 2 "" H 4900 6950 50  0001 C CNN
+F 3 "" H 4900 6950 50  0001 C CNN
+	1    4900 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6950 4900 7200
+Wire Wire Line
+	4900 7200 4950 7200
+Text Label 6200 7100 2    50   ~ 0
+~RST
+Wire Wire Line
+	5950 7100 6200 7100
+$Comp
+L Device:C C5
+U 1 1 60716CC0
+P 2900 4700
+F 0 "C5" V 2648 4700 50  0000 C CNN
+F 1 "100nF" V 2739 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2938 4550 50  0001 C CNN
+F 3 "~" H 2900 4700 50  0001 C CNN
+F 4 "C1525" V 2900 4700 50  0001 C CNN "LCSC"
+	1    2900 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 6075334C
+P 2700 4750
+F 0 "#PWR0108" H 2700 4500 50  0001 C CNN
+F 1 "GND" H 2705 4577 50  0000 C CNN
+F 2 "" H 2700 4750 50  0001 C CNN
+F 3 "" H 2700 4750 50  0001 C CNN
+	1    2700 4750
+	1    0    0    -1  
+$EndComp
+Text Label 3100 4700 0    50   ~ 0
+~RST
+Wire Wire Line
+	3050 4700 3300 4700
+Wire Wire Line
+	2700 4750 2700 4700
+Wire Wire Line
+	2700 4700 2750 4700
+$Comp
+L Battery_Management:LTC4054ES5-4.2 U3
+U 1 1 60976734
+P 1250 6350
+F 0 "U3" H 1300 6600 50  0000 L CNN
+F 1 "TP4054" H 900 6600 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 1250 5850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf" H 1250 6250 50  0001 C CNN
+F 4 "C32574" H 1250 6350 50  0001 C CNN "LCSC"
+	1    1250 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60977473
+P 700 6650
+F 0 "R3" H 770 6696 50  0000 L CNN
+F 1 "27kR" H 770 6605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 630 6650 50  0001 C CNN
+F 3 "~" H 700 6650 50  0001 C CNN
+F 4 "C25771" V 700 6650 50  0001 C CNN "LCSC"
+	1    700  6650
+	1    0    0    -1  
+$EndComp
+Text Notes 750  6950 0    50   ~ 0
+Ichg=37mA
+Wire Wire Line
+	850  6450 700  6450
+Wire Wire Line
+	700  6450 700  6500
+Wire Wire Line
+	700  6800 700  6850
+Wire Wire Line
+	700  6850 1250 6850
+Wire Wire Line
+	1250 6850 1250 6750
+$Comp
+L power:GND #PWR0109
+U 1 1 60B24452
+P 1250 6900
+F 0 "#PWR0109" H 1250 6650 50  0001 C CNN
+F 1 "GND" H 1255 6727 50  0000 C CNN
+F 2 "" H 1250 6900 50  0001 C CNN
+F 3 "" H 1250 6900 50  0001 C CNN
+	1    1250 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6900 1250 6850
+Connection ~ 1250 6850
+$Comp
+L power:+5V #PWR0110
+U 1 1 60B629F9
+P 1250 5950
+F 0 "#PWR0110" H 1250 5800 50  0001 C CNN
+F 1 "+5V" H 1265 6123 50  0000 C CNN
+F 2 "" H 1250 5950 50  0001 C CNN
+F 3 "" H 1250 5950 50  0001 C CNN
+	1    1250 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6000 1250 6050
+$Comp
+L Device:C C4
+U 1 1 60BA0FAA
+P 1500 6000
+F 0 "C4" V 1248 6000 50  0000 C CNN
+F 1 "1uF" V 1339 6000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 5850 50  0001 C CNN
+F 3 "~" H 1500 6000 50  0001 C CNN
+F 4 "C52923" V 1500 6000 50  0001 C CNN "LCSC"
+	1    1500 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 6000 1350 6000
+Wire Wire Line
+	1250 6000 1250 5950
+Connection ~ 1250 6000
+$Comp
+L power:GND #PWR0111
+U 1 1 60C5C365
+P 1700 6050
+F 0 "#PWR0111" H 1700 5800 50  0001 C CNN
+F 1 "GND" H 1705 5877 50  0000 C CNN
+F 2 "" H 1700 6050 50  0001 C CNN
+F 3 "" H 1700 6050 50  0001 C CNN
+	1    1700 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6050 1700 6000
+Wire Wire Line
+	1700 6000 1650 6000
+$Comp
+L Battery_Management:AP9101CK6 U2
+U 1 1 60C9DC2C
+P -3250 6450
+F 0 "U2" H -3400 6700 50  0000 C CNN
+F 1 "DW01+G" H -3050 6700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H -3250 6450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP9101C.pdf" H -3250 6500 50  0001 C CNN
+F 4 "C14213" H -3250 6450 50  0001 C CNN "LCSC"
+	1    -3250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET_Dual:FS8205 Q1
+U 1 1 60D27DBC
+P -2300 6900
+F 0 "Q1" V -2400 7100 50  0000 R CNN
+F 1 "FS8205" V -2200 7300 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H -2300 7400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Fortune-Semicon-FS8205_C32254.pdf" H -2300 7400 50  0001 C CNN
+F 4 "C32254" H -1806 6759 50  0001 L CNN "LCSC"
+	1    -2300 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Pack04 RN3
+U 1 1 60E68C0B
+P 2900 6300
+F 0 "RN3" V 2483 6300 50  0000 C CNN
+F 1 "1kR" V 2574 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 3175 6300 50  0001 C CNN
+F 3 "~" H 2900 6300 50  0001 C CNN
+F 4 "C25726" V 2900 6300 50  0001 C CNN "LCSC"
+	1    2900 6300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 60EA7FAF
+P 2900 6700
+F 0 "RN4" V 2483 6700 50  0000 C CNN
+F 1 "1kR" V 2574 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 3175 6700 50  0001 C CNN
+F 3 "~" H 2900 6700 50  0001 C CNN
+F 4 "C25726" V 2900 6700 50  0001 C CNN "LCSC"
+	1    2900 6700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN5
+U 1 1 60EE747F
+P 2900 7100
+F 0 "RN5" V 2483 7100 50  0000 C CNN
+F 1 "1kR" V 2574 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 3175 7100 50  0001 C CNN
+F 3 "~" H 2900 7100 50  0001 C CNN
+F 4 "C25726" V 2900 7100 50  0001 C CNN "LCSC"
+	1    2900 7100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN2
+U 1 1 60F268F3
+P -3350 5850
+F 0 "RN2" V -3767 5850 50  0000 C CNN
+F 1 "1kR" V -3676 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V -3075 5850 50  0001 C CNN
+F 3 "~" H -3350 5850 50  0001 C CNN
+F 4 "C25726" V -3350 5850 50  0001 C CNN "LCSC"
+	1    -3350 5850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	-3350 6150 -3250 6150
+Connection ~ -3250 6150
+$Comp
+L power:GND #PWR0112
+U 1 1 6106770F
+P -1850 6950
+F 0 "#PWR0112" H -1850 6700 50  0001 C CNN
+F 1 "GND" H -1845 6777 50  0000 C CNN
+F 2 "" H -1850 6950 50  0001 C CNN
+F 3 "" H -1850 6950 50  0001 C CNN
+	1    -1850 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 610A7BB8
+P -2750 6450
+F 0 "C3" H -2900 6450 50  0000 C CNN
+F 1 "100nF" H -3150 6450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -2712 6300 50  0001 C CNN
+F 3 "~" H -2750 6450 50  0001 C CNN
+F 4 "C1525" V -2750 6450 50  0001 C CNN "LCSC"
+	1    -2750 6450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-2750 6300 -2750 6150
+Wire Wire Line
+	-2750 6150 -3250 6150
+Wire Wire Line
+	-1850 6900 -1850 6950
+Wire Wire Line
+	-3250 6750 -3250 6900
+Wire Wire Line
+	-2750 6600 -2750 6900
+Wire Wire Line
+	-2750 6900 -3250 6900
+Wire Wire Line
+	-2450 6600 -2450 6550
+Wire Wire Line
+	-2850 6550 -2450 6550
+Wire Wire Line
+	-2150 6350 -2150 6600
+Wire Wire Line
+	-2850 6350 -2150 6350
+NoConn ~ -2300 7100
+Wire Wire Line
+	-1850 6900 -1900 6900
+Wire Wire Line
+	-3700 6450 -3650 6450
+Wire Wire Line
+	-2700 6900 -2750 6900
+Connection ~ -2750 6900
+Wire Wire Line
+	-3450 5600 -1850 5600
+Wire Wire Line
+	-1850 5600 -1850 6900
+Connection ~ -1850 6900
+Wire Wire Line
+	-3250 6050 -3250 6150
+Wire Wire Line
+	-3350 6050 -3350 6150
+Wire Wire Line
+	-3700 6150 -3450 6150
+Wire Wire Line
+	-3450 6150 -3450 6050
+Wire Wire Line
+	-3700 6150 -3700 6450
+Wire Wire Line
+	-3450 5650 -3450 5600
+Wire Wire Line
+	-3350 5650 -3350 5550
+Wire Wire Line
+	-3250 5650 -3250 5550
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61778931
+P -3150 5450
+F 0 "TP1" H -3092 5568 50  0000 L CNN
+F 1 "BAT+" H -3092 5477 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H -2950 5450 50  0001 C CNN
+F 3 "~" H -2950 5450 50  0001 C CNN
+	1    -3150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0113
+U 1 1 617BE225
+P -3450 5450
+F 0 "#PWR0113" H -3450 5300 50  0001 C CNN
+F 1 "+BATT" H -3435 5623 50  0000 C CNN
+F 2 "" H -3450 5450 50  0001 C CNN
+F 3 "" H -3450 5450 50  0001 C CNN
+	1    -3450 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3350 5550 -3250 5550
+Wire Wire Line
+	-3250 5550 -3150 5550
+Wire Wire Line
+	-3150 5550 -3150 5450
+Connection ~ -3250 5550
+Wire Wire Line
+	-3350 5550 -3450 5550
+Wire Wire Line
+	-3450 5550 -3450 5450
+Connection ~ -3350 5550
+$Comp
+L Regulator_Linear:XC6206PxxxMR U4
+U 1 1 6184C10B
+P -1100 4050
+F 0 "U4" H -1250 3800 50  0000 C CNN
+F 1 "XC6206P332MR" H -1100 4201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H -1100 4275 50  0001 C CIN
+F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H -1100 4050 50  0001 C CNN
+F 4 "C5446" H -1100 4050 50  0001 C CNN "LCSC"
+	1    -1100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0114
+U 1 1 6184D44D
+P -750 4000
+F 0 "#PWR0114" H -750 3850 50  0001 C CNN
+F 1 "+3V3" H -735 4173 50  0000 C CNN
+F 2 "" H -750 4000 50  0001 C CNN
+F 3 "" H -750 4000 50  0001 C CNN
+	1    -750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0115
+U 1 1 61895886
+P -2350 4000
+F 0 "#PWR0115" H -2350 3850 50  0001 C CNN
+F 1 "+BATT" H -2335 4173 50  0000 C CNN
+F 2 "" H -2350 4000 50  0001 C CNN
+F 3 "" H -2350 4000 50  0001 C CNN
+	1    -2350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1450 4050 -1400 4050
+Wire Wire Line
+	-800 4050 -750 4050
+Wire Wire Line
+	-750 4050 -750 4000
+$Comp
+L Device:C C6
+U 1 1 61922E4F
+P -1450 4250
+F 0 "C6" V -1702 4250 50  0000 C CNN
+F 1 "1uF" V -1611 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -1412 4100 50  0001 C CNN
+F 3 "~" H -1450 4250 50  0001 C CNN
+F 4 "C52923" V -1450 4250 50  0001 C CNN "LCSC"
+	1    -1450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 619696AB
+P -750 4250
+F 0 "C7" V -1002 4250 50  0000 C CNN
+F 1 "1uF" V -911 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -712 4100 50  0001 C CNN
+F 3 "~" H -750 4250 50  0001 C CNN
+F 4 "C52923" V -750 4250 50  0001 C CNN "LCSC"
+	1    -750 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-750 4100 -750 4050
+Connection ~ -750 4050
+Wire Wire Line
+	-1450 4100 -1450 4050
+Connection ~ -1450 4050
+Wire Wire Line
+	-1450 4400 -1450 4450
+Wire Wire Line
+	-1450 4450 -1100 4450
+Wire Wire Line
+	-1100 4450 -1100 4350
+Wire Wire Line
+	-1100 4450 -750 4450
+Wire Wire Line
+	-750 4450 -750 4400
+Connection ~ -1100 4450
+$Comp
+L power:GND #PWR0116
+U 1 1 61ACCF62
+P -1100 4500
+F 0 "#PWR0116" H -1100 4250 50  0001 C CNN
+F 1 "GND" H -1095 4327 50  0000 C CNN
+F 2 "" H -1100 4500 50  0001 C CNN
+F 3 "" H -1100 4500 50  0001 C CNN
+	1    -1100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1100 4500 -1100 4450
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61B15461
+P -3250 6950
+F 0 "TP2" H -3308 6976 50  0000 R CNN
+F 1 "BAT-" H -3308 7067 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H -3050 6950 50  0001 C CNN
+F 3 "~" H -3050 6950 50  0001 C CNN
+	1    -3250 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-3250 6950 -3250 6900
+Connection ~ -3250 6900
+$Comp
+L Device:D D226
+U 1 1 61C39347
+P -1450 3750
+F 0 "D226" V -1404 3670 50  0000 R CNN
+F 1 "1N4148" V -1495 3670 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323F" H -1450 3750 50  0001 C CNN
+F 3 "~" H -1450 3750 50  0001 C CNN
+F 4 "C2128" V -1450 3750 50  0001 C CNN "LCSC"
+	1    -1450 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-1450 3900 -1450 4050
+$Comp
+L power:+5V #PWR0117
+U 1 1 61CCA0D6
+P -1450 3500
+F 0 "#PWR0117" H -1450 3350 50  0001 C CNN
+F 1 "+5V" H -1435 3673 50  0000 C CNN
+F 2 "" H -1450 3500 50  0001 C CNN
+F 3 "" H -1450 3500 50  0001 C CNN
+	1    -1450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1450 3500 -1450 3550
+$Comp
+L Transistor_FET:AO3401A Q2
+U 1 1 61D137E6
+P -2050 4150
+F 0 "Q2" V -1708 4150 50  0000 C CNN
+F 1 "AO3401A" V -1799 4150 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H -1850 4075 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H -2050 4150 50  0001 L CNN
+F 4 "C15127" V -2050 4150 50  0001 C CNN "LCSC"
+	1    -2050 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 61DF054E
+P -2050 4600
+F 0 "R4" H -1980 4646 50  0000 L CNN
+F 1 "27kR" H -1980 4555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 4600 50  0001 C CNN
+F 3 "~" H -2050 4600 50  0001 C CNN
+F 4 "C25771" V -2050 4600 50  0001 C CNN "LCSC"
+	1    -2050 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1850 4050 -1450 4050
+$Comp
+L power:GND #PWR0118
+U 1 1 61F14E06
+P -2050 4800
+F 0 "#PWR0118" H -2050 4550 50  0001 C CNN
+F 1 "GND" H -2045 4627 50  0000 C CNN
+F 2 "" H -2050 4800 50  0001 C CNN
+F 3 "" H -2050 4800 50  0001 C CNN
+	1    -2050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 4800 -2050 4750
+Wire Wire Line
+	-2350 4000 -2350 4050
+Wire Wire Line
+	-2350 4050 -2250 4050
+Wire Wire Line
+	-2050 4350 -2050 4400
+Wire Wire Line
+	-2050 4400 -1800 4400
+Wire Wire Line
+	-1800 4400 -1800 3550
+Wire Wire Line
+	-1800 3550 -1450 3550
+Connection ~ -2050 4400
+Wire Wire Line
+	-2050 4400 -2050 4450
+Connection ~ -1450 3550
+Wire Wire Line
+	-1450 3550 -1450 3600
+$Comp
+L power:+BATT #PWR0119
+U 1 1 6211C4B4
+P 1850 6250
+F 0 "#PWR0119" H 1850 6100 50  0001 C CNN
+F 1 "+BATT" H 1865 6423 50  0000 C CNN
+F 2 "" H 1850 6250 50  0001 C CNN
+F 3 "" H 1850 6250 50  0001 C CNN
+	1    1850 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 6250 1850 6350
+Wire Wire Line
+	1850 6350 1650 6350
+$Comp
+L Device:LED D?
+U 1 1 62168F63
+P 700 5950
+AR Path="/5F7BAB43/5F7BABD4/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7BF8EE/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C0ACE/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C0E9B/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C1909/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C241C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C324C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C47F7/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F7C7FAB/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7BF8EE/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C0ACE/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C0E9B/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C1909/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C241C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C324C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C47F7/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C7FAB/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9266B4/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F938E39/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F939D1F/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F93B525/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F93E254/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F941166/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F944D0C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F94AD53/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F951450/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F959827/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F96367C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F970ED3/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F982593/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F997870/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9B03F8/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0944B/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0947D/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA094AF/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA094E1/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09513/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09545/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09577/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA095A9/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA095DB/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0960D/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0963F/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09671/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA096A3/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA096D5/62168F63" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09707/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E3F4/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E426/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E458/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E48A/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E4BC/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E4EE/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E520/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E552/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E584/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E5B6/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E5E8/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E61A/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E64C/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E67E/62168F63" Ref="D?"  Part="1" 
+AR Path="/5FA2E6B0/62168F63" Ref="D?"  Part="1" 
+AR Path="/62168F63" Ref="D227"  Part="1" 
+F 0 "D227" H 693 5695 50  0000 C CNN
+F 1 "LED" H 693 5786 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 700 5950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810131712_BrtLed-Bright-LED-Elec-BL-HUB37A-AV-TRB_C165980.pdf" H 700 5950 50  0001 C CNN
+F 4 "C165980" H 700 5950 50  0001 C CNN "LCSC"
+	1    700  5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	700  6100 700  6350
+Wire Wire Line
+	700  6350 850  6350
+Wire Wire Line
+	700  5800 700  5750
+Wire Wire Line
+	700  5750 1150 5750
+Text Label 1150 5750 2    50   ~ 0
+CHG_LED+
+$Comp
+L power:+5V #PWR0120
+U 1 1 6224BD75
+P -3700 5450
+F 0 "#PWR0120" H -3700 5300 50  0001 C CNN
+F 1 "+5V" H -3685 5623 50  0000 C CNN
+F 2 "" H -3700 5450 50  0001 C CNN
+F 3 "" H -3700 5450 50  0001 C CNN
+	1    -3700 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3700 5450 -3700 5550
+Wire Wire Line
+	-3700 5550 -3550 5550
+Wire Wire Line
+	-3550 5550 -3550 5650
+Wire Wire Line
+	-3550 6050 -3550 6100
+Wire Wire Line
+	-3550 6100 -3950 6100
+Text Label -3950 6100 0    50   ~ 0
+CHG_LED+
+$Comp
+L Device:C C1
+U 1 1 625B1311
+P 3500 3950
+F 0 "C1" V 3248 3950 50  0000 C CNN
+F 1 "100nF" V 3339 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 3800 50  0001 C CNN
+F 3 "~" H 3500 3950 50  0001 C CNN
+F 4 "C1525" V 3500 3950 50  0001 C CNN "LCSC"
+	1    3500 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 6283166E
+P 3300 4400
+F 0 "#PWR0121" H 3300 4150 50  0001 C CNN
+F 1 "GND" H 3305 4227 50  0000 C CNN
+F 2 "" H 3300 4400 50  0001 C CNN
+F 3 "" H 3300 4400 50  0001 C CNN
+	1    3300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4400 3300 4350
+Wire Wire Line
+	3300 4350 3350 4350
+Wire Wire Line
+	3300 4350 3300 3950
+Connection ~ 3300 4350
+Wire Wire Line
+	3300 3950 3350 3950
+$Comp
+L Device:C C9
+U 1 1 62A66689
+P 4300 4350
+F 0 "C9" V 4048 4350 50  0000 C CNN
+F 1 "100nF" V 4139 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 4200 50  0001 C CNN
+F 3 "~" H 4300 4350 50  0001 C CNN
+F 4 "C1525" V 4300 4350 50  0001 C CNN "LCSC"
+	1    4300 4350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 62A66690
+P 4300 3950
+F 0 "C8" V 4048 3950 50  0000 C CNN
+F 1 "100nF" V 4139 3950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4338 3800 50  0001 C CNN
+F 3 "~" H 4300 3950 50  0001 C CNN
+F 4 "C1525" V 4300 3950 50  0001 C CNN "LCSC"
+	1    4300 3950
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 62A66696
+P 4500 4400
+F 0 "#PWR0122" H 4500 4150 50  0001 C CNN
+F 1 "GND" H 4505 4227 50  0000 C CNN
+F 2 "" H 4500 4400 50  0001 C CNN
+F 3 "" H 4500 4400 50  0001 C CNN
+	1    4500 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4400 4500 4350
+Wire Wire Line
+	4500 4350 4450 4350
+Wire Wire Line
+	4500 4350 4500 3950
+Connection ~ 4500 4350
+Wire Wire Line
+	4500 3950 4450 3950
+NoConn ~ 3700 4500
+Wire Wire Line
+	3800 4500 3800 4350
+Wire Wire Line
+	3800 4350 3650 4350
+Wire Wire Line
+	3900 4500 3900 3950
+Wire Wire Line
+	3900 3950 3800 3950
+Wire Wire Line
+	4000 4500 4000 3950
+Wire Wire Line
+	4000 3950 4100 3950
+Wire Wire Line
+	4100 4500 4100 4350
+Wire Wire Line
+	4100 4350 4150 4350
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 62CE4385
+P 3950 3900
+F 0 "#PWR0123" H 3950 3750 50  0001 C CNN
+F 1 "+3V3" H 3965 4073 50  0000 C CNN
+F 2 "" H 3950 3900 50  0001 C CNN
+F 3 "" H 3950 3900 50  0001 C CNN
+	1    3950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3900 3950 3950
+Wire Wire Line
+	3950 3950 3900 3950
+Connection ~ 3900 3950
+Wire Wire Line
+	3950 3950 4000 3950
+Connection ~ 3950 3950
+Connection ~ 4000 3950
+Wire Wire Line
+	4100 4350 4100 3950
+Connection ~ 4100 4350
+Connection ~ 4100 3950
+Wire Wire Line
+	4100 3950 4150 3950
+Wire Wire Line
+	3800 4350 3800 3950
+Connection ~ 3800 4350
+Connection ~ 3800 3950
+Wire Wire Line
+	3800 3950 3650 3950
+Wire Wire Line
+	2700 6100 2500 6100
+$Comp
+L Switch:SW_Push SW?
+U 1 1 62F86DC3
+P 4800 4850
+F 0 "SW?" V 4754 4998 50  0000 L CNN
+F 1 "SW_Push" V 4845 4998 50  0000 L CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 4800 5050 50  0001 C CNN
+F 3 "~" H 4800 5050 50  0001 C CNN
+	1    4800 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63080375
+P 2350 5300
+F 0 "R?" H 2420 5346 50  0000 L CNN
+F 1 "27kR" H 2420 5255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2280 5300 50  0001 C CNN
+F 3 "~" H 2350 5300 50  0001 C CNN
+F 4 "C25771" V 2350 5300 50  0001 C CNN "LCSC"
+	1    2350 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 5100 2350 5150
+Wire Wire Line
+	2350 5100 3300 5100
+$Comp
+L power:GND #PWR?
+U 1 1 63179DFE
+P 2350 5500
+F 0 "#PWR?" H 2350 5250 50  0001 C CNN
+F 1 "GND" H 2355 5327 50  0000 C CNN
+F 2 "" H 2350 5500 50  0001 C CNN
+F 3 "" H 2350 5500 50  0001 C CNN
+	1    2350 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5500 2350 5450
+$Comp
+L Switch:SW_Push SW?
+U 1 1 63220683
+P 2350 4850
+F 0 "SW?" H 2350 5135 50  0000 C CNN
+F 1 "SW_Push" H 2350 5044 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 2350 5050 50  0001 C CNN
+F 3 "~" H 2350 5050 50  0001 C CNN
+	1    2350 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 5050 2350 5100
+Connection ~ 2350 5100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 632C6E32
+P 2350 4600
+F 0 "#PWR?" H 2350 4450 50  0001 C CNN
+F 1 "+3V3" H 2365 4773 50  0000 C CNN
+F 2 "" H 2350 4600 50  0001 C CNN
+F 3 "" H 2350 4600 50  0001 C CNN
+	1    2350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 4600 2350 4650
+$Comp
+L power:GND #PWR?
+U 1 1 6331B956
+P 4800 5100
+F 0 "#PWR?" H 4800 4850 50  0001 C CNN
+F 1 "GND" H 4805 4927 50  0000 C CNN
+F 2 "" H 4800 5100 50  0001 C CNN
+F 3 "" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5100 4800 5050
+Wire Wire Line
+	4800 4650 4800 4600
+Wire Wire Line
+	4800 4600 5000 4600
+Text Label 5000 4600 2    50   ~ 0
+~RST
 $EndSCHEMATC
