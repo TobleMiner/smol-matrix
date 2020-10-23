@@ -2814,4 +2814,8 @@ F 4 "C25768" V 850 5300 50  0001 C CNN "LCSC"
 	1    850  5300
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3000 6700 3250 6700
+Text Label 3250 6700 2    50   ~ 0
+BOOT0
 $EndSCHEMATC
