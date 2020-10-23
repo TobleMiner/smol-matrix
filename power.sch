@@ -311,20 +311,6 @@ F 4 "C15127" V 4550 3150 50  0001 C CNN "LCSC"
 	1    4550 3150
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 63581816
-P 4550 3600
-AR Path="/63581816" Ref="R?"  Part="1" 
-AR Path="/634EFCCB/63581816" Ref="R2"  Part="1" 
-F 0 "R2" H 4620 3646 50  0000 L CNN
-F 1 "27kR" H 4620 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 3600 50  0001 C CNN
-F 3 "~" H 4550 3600 50  0001 C CNN
-F 4 "C25771" V 4550 3600 50  0001 C CNN "LCSC"
-	1    4550 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 3050 5150 3050
 $Comp
@@ -526,92 +512,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 2550 2650 2550
 $Comp
-L Device:LED D?
-U 1 1 63609EC7
-P 1700 2150
-AR Path="/5F7BAB43/5F7BABD4/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7BF8EE/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C0ACE/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C0E9B/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C1909/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C241C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C324C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C47F7/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F7C7FAB/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7BF8EE/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C0ACE/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C0E9B/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C1909/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C241C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C324C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C47F7/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C7FAB/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9266B4/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F938E39/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F939D1F/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F93B525/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F93E254/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F941166/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F944D0C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F94AD53/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F951450/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F959827/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F96367C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F970ED3/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F982593/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F997870/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9B03F8/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0944B/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0947D/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA094AF/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA094E1/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09513/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09545/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09577/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA095A9/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA095DB/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0960D/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0963F/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09671/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA096A3/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA096D5/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09707/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E3F4/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E426/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E458/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E48A/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E4BC/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E4EE/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E520/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E552/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E584/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E5B6/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E5E8/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E61A/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E64C/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E67E/63609EC7" Ref="D?"  Part="1" 
-AR Path="/5FA2E6B0/63609EC7" Ref="D?"  Part="1" 
-AR Path="/63609EC7" Ref="D?"  Part="1" 
-AR Path="/634EFCCB/63609EC7" Ref="D226"  Part="1" 
-F 0 "D226" H 1693 1895 50  0000 C CNN
-F 1 "LED" H 1693 1986 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 1700 2150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810131712_BrtLed-Bright-LED-Elec-BL-HUB37A-AV-TRB_C165980.pdf" H 1700 2150 50  0001 C CNN
-F 4 "C165980" H 1700 2150 50  0001 C CNN "LCSC"
-	1    1700 2150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1700 2300 1700 2550
-Wire Wire Line
-	1700 2550 1850 2550
-Wire Wire Line
-	1700 2000 1700 1950
-Wire Wire Line
-	1700 1950 2150 1950
-Text Label 2150 1950 2    50   ~ 0
-CHG_LED+
-$Comp
 L Connector:USB_C_Receptacle_USB2.0 J?
 U 1 1 636CB154
 P 8250 2850
@@ -792,4 +692,149 @@ Wire Wire Line
 Wire Wire Line
 	6250 3450 6250 3400
 Connection ~ 5850 3450
+Wire Wire Line
+	1650 2650 1700 2650
+Connection ~ 1700 2650
+$Comp
+L Device:C C?
+U 1 1 643C4200
+P 1300 2850
+AR Path="/643C4200" Ref="C?"  Part="1" 
+AR Path="/634EFCCB/643C4200" Ref="C11"  Part="1" 
+F 0 "C11" V 1048 2850 50  0000 C CNN
+F 1 "100nF" V 1139 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1338 2700 50  0001 C CNN
+F 3 "~" H 1300 2850 50  0001 C CNN
+F 4 "C1525" V 1300 2850 50  0001 C CNN "LCSC"
+	1    1300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2700 1300 2650
+Wire Wire Line
+	1300 2650 1350 2650
+Wire Wire Line
+	1300 3000 1300 3050
+Wire Wire Line
+	1300 3050 1700 3050
+Connection ~ 1700 3050
+Text HLabel 1250 2650 0    50   Output ~ 0
+I_chg
+Wire Wire Line
+	1250 2650 1300 2650
+Connection ~ 1300 2650
+Text Label 2150 1950 2    50   ~ 0
+CHG_LED+
+Wire Wire Line
+	1700 1950 2150 1950
+Wire Wire Line
+	1700 2000 1700 1950
+Wire Wire Line
+	1700 2300 1700 2550
+$Comp
+L Device:LED D?
+U 1 1 63609EC7
+P 1700 2150
+AR Path="/5F7BAB43/5F7BABD4/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7BF8EE/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C0ACE/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C0E9B/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C1909/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C241C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C324C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C47F7/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F7C7FAB/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7BF8EE/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C0ACE/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C0E9B/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C1909/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C241C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C324C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C47F7/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F91C84F/5F7C7FAB/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9266B4/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F938E39/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F939D1F/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F93B525/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F93E254/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F941166/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F944D0C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F94AD53/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F951450/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F959827/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F96367C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F970ED3/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F982593/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F997870/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9B03F8/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0944B/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0947D/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA094AF/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA094E1/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09513/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09545/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09577/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA095A9/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA095DB/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0960D/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA0963F/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09671/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA096A3/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA096D5/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5F9F767F/5FA09707/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E3F4/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E426/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E458/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E48A/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E4BC/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E4EE/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E520/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E552/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E584/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E5B6/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E5E8/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E61A/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E64C/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E67E/63609EC7" Ref="D?"  Part="1" 
+AR Path="/5FA2E6B0/63609EC7" Ref="D?"  Part="1" 
+AR Path="/63609EC7" Ref="D?"  Part="1" 
+AR Path="/634EFCCB/63609EC7" Ref="D226"  Part="1" 
+F 0 "D226" H 1693 1895 50  0000 C CNN
+F 1 "LED" H 1693 1986 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 1700 2150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810131712_BrtLed-Bright-LED-Elec-BL-HUB37A-AV-TRB_C165980.pdf" H 1700 2150 50  0001 C CNN
+F 4 "C165980" H 1700 2150 50  0001 C CNN "LCSC"
+	1    1700 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 2550 1850 2550
+$Comp
+L Device:R R?
+U 1 1 63581816
+P 4550 3600
+AR Path="/63581816" Ref="R?"  Part="1" 
+AR Path="/634EFCCB/63581816" Ref="R2"  Part="1" 
+F 0 "R2" H 4620 3646 50  0000 L CNN
+F 1 "22kR" H 4620 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 3600 50  0001 C CNN
+F 3 "~" H 4550 3600 50  0001 C CNN
+F 4 "C25768" V 4550 3600 50  0001 C CNN "LCSC"
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 644F21C2
+P 1500 2650
+AR Path="/644F21C2" Ref="R?"  Part="1" 
+AR Path="/634EFCCB/644F21C2" Ref="R?"  Part="1" 
+F 0 "R?" H 1570 2696 50  0000 L CNN
+F 1 "22kR" H 1570 2605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1430 2650 50  0001 C CNN
+F 3 "~" H 1500 2650 50  0001 C CNN
+F 4 "C25768" V 1500 2650 50  0001 C CNN "LCSC"
+	1    1500 2650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

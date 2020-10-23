@@ -1756,18 +1756,6 @@ F 3 "~" H 850 4050 50  0001 C CNN
 	1    850  3850
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R5
-U 1 1 63080375
-P 850 5300
-F 0 "R5" H 920 5346 50  0000 L CNN
-F 1 "27kR" H 920 5255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 780 5300 50  0001 C CNN
-F 3 "~" H 850 5300 50  0001 C CNN
-F 4 "C25771" V 850 5300 50  0001 C CNN "LCSC"
-	1    850  5300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	850  5100 850  5150
 Wire Wire Line
@@ -1838,6 +1826,7 @@ F0 "Power" 50
 F1 "power.sch" 50
 F2 "D-" B L 10200 5950 50 
 F3 "D+" B L 10200 6100 50 
+F4 "I_chg" O R 10750 5950 50 
 $EndSheet
 Wire Wire Line
 	1400 6600 1800 6600
@@ -2805,4 +2794,24 @@ Wire Wire Line
 	1200 7200 1000 7200
 Text Label 1050 5100 0    50   ~ 0
 BOOT0
+Text Label 11000 5950 2    50   ~ 0
+I_chg
+Wire Wire Line
+	10750 5950 11000 5950
+Text Label 3250 5700 2    50   ~ 0
+I_chg
+Wire Wire Line
+	3000 5700 3250 5700
+$Comp
+L Device:R R5
+U 1 1 63080375
+P 850 5300
+F 0 "R5" H 780 5254 50  0000 R CNN
+F 1 "22kR" H 780 5345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 780 5300 50  0001 C CNN
+F 3 "~" H 850 5300 50  0001 C CNN
+F 4 "C25768" V 850 5300 50  0001 C CNN "LCSC"
+	1    850  5300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
