@@ -422,15 +422,15 @@ P 1700 2850
 AR Path="/63609E91" Ref="R?"  Part="1" 
 AR Path="/634EFCCB/63609E91" Ref="R1"  Part="1" 
 F 0 "R1" H 1770 2896 50  0000 L CNN
-F 1 "27kR" H 1770 2805 50  0000 L CNN
+F 1 "22kR" H 1770 2805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1630 2850 50  0001 C CNN
 F 3 "~" H 1700 2850 50  0001 C CNN
-F 4 "C25771" V 1700 2850 50  0001 C CNN "LCSC"
+F 4 "C25768" V 1700 2850 50  0001 C CNN "LCSC"
 	1    1700 2850
 	1    0    0    -1  
 $EndComp
 Text Notes 1750 3150 0    50   ~ 0
-Ichg=37mA
+Ichg=45mA
 Wire Wire Line
 	1850 2650 1700 2650
 Wire Wire Line
@@ -769,4 +769,27 @@ Wire Wire Line
 Connection ~ 9300 2400
 Text HLabel 9050 2950 2    50   BiDi ~ 0
 D+
+$Comp
+L Device:C C?
+U 1 1 643AD16D
+P 6250 3250
+AR Path="/643AD16D" Ref="C?"  Part="1" 
+AR Path="/634EFCCB/643AD16D" Ref="C10"  Part="1" 
+F 0 "C10" H 6135 3204 50  0000 R CNN
+F 1 "10uF" H 6135 3295 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6288 3100 50  0001 C CNN
+F 3 "~" H 6250 3250 50  0001 C CNN
+F 4 "C15525" V 6250 3250 50  0001 C CNN "LCSC"
+	1    6250 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 3050 6250 3050
+Wire Wire Line
+	6250 3050 6250 3100
+Wire Wire Line
+	5850 3450 6250 3450
+Wire Wire Line
+	6250 3450 6250 3400
+Connection ~ 5850 3450
 $EndSCHEMATC

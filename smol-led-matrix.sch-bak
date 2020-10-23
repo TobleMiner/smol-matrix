@@ -2803,4 +2803,6 @@ Text Label 1000 7200 0    50   ~ 0
 A15
 Wire Wire Line
 	1200 7200 1000 7200
+Text Label 1050 5100 0    50   ~ 0
+BOOT0
 $EndSCHEMATC
