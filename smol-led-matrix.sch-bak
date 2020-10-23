@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 16
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -1347,20 +1347,12 @@ Wire Wire Line
 	3300 6400 3100 6400
 Text Label 3100 6400 0    50   ~ 0
 K7
-Wire Wire Line
-	3300 6500 3100 6500
 Text Label 3100 6500 0    50   ~ 0
 K8
-Wire Wire Line
-	3300 6600 3100 6600
 Text Label 3100 6600 0    50   ~ 0
 K9
-Wire Wire Line
-	3300 6700 3100 6700
 Text Label 3100 6700 0    50   ~ 0
 K10
-Wire Wire Line
-	3300 6800 3100 6800
 Text Label 3100 6800 0    50   ~ 0
 K11
 Wire Wire Line
@@ -1408,20 +1400,20 @@ Wire Wire Line
 Text Label 2500 6400 0    50   ~ 0
 A7
 Wire Wire Line
-	2700 6500 2500 6500
-Text Label 2500 6500 0    50   ~ 0
+	2500 6500 2300 6500
+Text Label 2300 6500 0    50   ~ 0
 A8
 Wire Wire Line
-	2700 6600 2500 6600
-Text Label 2500 6600 0    50   ~ 0
+	2500 6600 2300 6600
+Text Label 2300 6600 0    50   ~ 0
 A9
 Wire Wire Line
-	2700 6700 2500 6700
-Text Label 2500 6700 0    50   ~ 0
+	2500 6800 2300 6800
+Text Label 2300 6800 0    50   ~ 0
 A10
 Wire Wire Line
-	2700 6800 2500 6800
-Text Label 2500 6800 0    50   ~ 0
+	2500 6700 2300 6700
+Text Label 2300 6700 0    50   ~ 0
 A11
 Wire Wire Line
 	2700 6900 2500 6900
@@ -1495,17 +1487,6 @@ $EndComp
 Wire Wire Line
 	3300 7200 3250 7200
 NoConn ~ 3100 7200
-$Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
-U 1 1 6000107E
-P 1300 4350
-F 0 "J1" H 1407 5217 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1407 5126 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 1450 4350 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 4350 50  0001 C CNN
-	1    1300 4350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 6800 4650 6800
 Text Label 4650 6800 2    50   ~ 0
@@ -1514,121 +1495,6 @@ Wire Wire Line
 	4500 6900 4650 6900
 Text Label 4650 6900 2    50   ~ 0
 D+
-Wire Wire Line
-	1900 4250 1950 4250
-Wire Wire Line
-	1950 4250 1950 4350
-Wire Wire Line
-	1950 4350 1900 4350
-Wire Wire Line
-	1950 4350 2100 4350
-Connection ~ 1950 4350
-Wire Wire Line
-	1900 4550 1950 4550
-Wire Wire Line
-	1950 4550 1950 4450
-Wire Wire Line
-	1950 4450 2100 4450
-Wire Wire Line
-	1900 4450 1950 4450
-Connection ~ 1950 4450
-Text Label 2100 4350 2    50   ~ 0
-D-
-Text Label 2100 4450 2    50   ~ 0
-D+
-$Comp
-L Device:R R1
-U 1 1 601477C6
-P 2150 3900
-F 0 "R1" V 1943 3900 50  0000 C CNN
-F 1 "5.1kR" V 2034 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 3900 50  0001 C CNN
-F 3 "~" H 2150 3900 50  0001 C CNN
-F 4 "C25905" V 2150 3900 50  0001 C CNN "LCSC"
-	1    2150 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2000 3900 1950 3900
-Wire Wire Line
-	1950 3900 1950 3950
-Wire Wire Line
-	1950 3950 1900 3950
-$Comp
-L Device:R R2
-U 1 1 6018035F
-P 2150 4100
-F 0 "R2" V 2250 4100 50  0000 C CNN
-F 1 "5.1kR" V 2350 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 2080 4100 50  0001 C CNN
-F 3 "~" H 2150 4100 50  0001 C CNN
-F 4 "C25905" V 2150 4100 50  0001 C CNN "LCSC"
-	1    2150 4100
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2000 4100 1950 4100
-Wire Wire Line
-	1950 4100 1950 4050
-Wire Wire Line
-	1950 4050 1900 4050
-$Comp
-L power:GND #PWR0102
-U 1 1 601F27B2
-P 2350 4150
-F 0 "#PWR0102" H 2350 3900 50  0001 C CNN
-F 1 "GND" H 2355 3977 50  0000 C CNN
-F 2 "" H 2350 4150 50  0001 C CNN
-F 3 "" H 2350 4150 50  0001 C CNN
-	1    2350 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 4150 2350 4100
-Wire Wire Line
-	2350 3900 2300 3900
-Wire Wire Line
-	2300 4100 2350 4100
-Connection ~ 2350 4100
-Wire Wire Line
-	2350 4100 2350 3900
-$Comp
-L power:+5V #PWR0103
-U 1 1 60265FCF
-P 1950 3700
-F 0 "#PWR0103" H 1950 3550 50  0001 C CNN
-F 1 "+5V" H 1965 3873 50  0000 C CNN
-F 2 "" H 1950 3700 50  0001 C CNN
-F 3 "" H 1950 3700 50  0001 C CNN
-	1    1950 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 3700 1950 3750
-Wire Wire Line
-	1950 3750 1900 3750
-NoConn ~ 1900 4850
-NoConn ~ 1900 4950
-$Comp
-L power:GND #PWR0104
-U 1 1 60314939
-P 1300 5350
-F 0 "#PWR0104" H 1300 5100 50  0001 C CNN
-F 1 "GND" H 1305 5177 50  0000 C CNN
-F 2 "" H 1300 5350 50  0001 C CNN
-F 3 "" H 1300 5350 50  0001 C CNN
-	1    1300 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 5350 1300 5300
-Wire Wire Line
-	1300 5300 1000 5300
-Wire Wire Line
-	1000 5300 1000 5250
-Connection ~ 1300 5300
-Wire Wire Line
-	1300 5300 1300 5250
 $Comp
 L Connector_TagConnect:TagConnect_TC2030_SWD J2
 U 1 1 6038A722
@@ -1725,113 +1591,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 4700 2750 4700
 $Comp
-L Battery_Management:LTC4054ES5-4.2 U3
-U 1 1 60976734
-P 1250 6350
-F 0 "U3" H 1300 6600 50  0000 L CNN
-F 1 "TP4054" H 900 6600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 1250 5850 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf" H 1250 6250 50  0001 C CNN
-F 4 "C32574" H 1250 6350 50  0001 C CNN "LCSC"
-	1    1250 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 60977473
-P 700 6650
-F 0 "R3" H 770 6696 50  0000 L CNN
-F 1 "27kR" H 770 6605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 630 6650 50  0001 C CNN
-F 3 "~" H 700 6650 50  0001 C CNN
-F 4 "C25771" V 700 6650 50  0001 C CNN "LCSC"
-	1    700  6650
-	1    0    0    -1  
-$EndComp
-Text Notes 750  6950 0    50   ~ 0
-Ichg=37mA
-Wire Wire Line
-	850  6450 700  6450
-Wire Wire Line
-	700  6450 700  6500
-Wire Wire Line
-	700  6800 700  6850
-Wire Wire Line
-	700  6850 1250 6850
-Wire Wire Line
-	1250 6850 1250 6750
-$Comp
-L power:GND #PWR0109
-U 1 1 60B24452
-P 1250 6900
-F 0 "#PWR0109" H 1250 6650 50  0001 C CNN
-F 1 "GND" H 1255 6727 50  0000 C CNN
-F 2 "" H 1250 6900 50  0001 C CNN
-F 3 "" H 1250 6900 50  0001 C CNN
-	1    1250 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6900 1250 6850
-Connection ~ 1250 6850
-$Comp
-L power:+5V #PWR0110
-U 1 1 60B629F9
-P 1250 5950
-F 0 "#PWR0110" H 1250 5800 50  0001 C CNN
-F 1 "+5V" H 1265 6123 50  0000 C CNN
-F 2 "" H 1250 5950 50  0001 C CNN
-F 3 "" H 1250 5950 50  0001 C CNN
-	1    1250 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 6000 1250 6050
-$Comp
-L Device:C C4
-U 1 1 60BA0FAA
-P 1500 6000
-F 0 "C4" V 1248 6000 50  0000 C CNN
-F 1 "1uF" V 1339 6000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1538 5850 50  0001 C CNN
-F 3 "~" H 1500 6000 50  0001 C CNN
-F 4 "C52923" V 1500 6000 50  0001 C CNN "LCSC"
-	1    1500 6000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1250 6000 1350 6000
-Wire Wire Line
-	1250 6000 1250 5950
-Connection ~ 1250 6000
-$Comp
-L power:GND #PWR0111
-U 1 1 60C5C365
-P 1700 6050
-F 0 "#PWR0111" H 1700 5800 50  0001 C CNN
-F 1 "GND" H 1705 5877 50  0000 C CNN
-F 2 "" H 1700 6050 50  0001 C CNN
-F 3 "" H 1700 6050 50  0001 C CNN
-	1    1700 6050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 6050 1700 6000
-Wire Wire Line
-	1700 6000 1650 6000
-$Comp
-L Battery_Management:AP9101CK6 U2
-U 1 1 60C9DC2C
-P -3250 6450
-F 0 "U2" H -3400 6700 50  0000 C CNN
-F 1 "DW01+G" H -3050 6700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H -3250 6450 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP9101C.pdf" H -3250 6500 50  0001 C CNN
-F 4 "C14213" H -3250 6450 50  0001 C CNN "LCSC"
-	1    -3250 6450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Pack04 RN3
 U 1 1 60E68C0B
 P 2900 6300
@@ -1846,13 +1605,13 @@ $EndComp
 $Comp
 L Device:R_Pack04 RN4
 U 1 1 60EA7FAF
-P 2900 6700
-F 0 "RN4" V 2483 6700 50  0000 C CNN
-F 1 "1kR" V 2574 6700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 3175 6700 50  0001 C CNN
-F 3 "~" H 2900 6700 50  0001 C CNN
-F 4 "C25726" V 2900 6700 50  0001 C CNN "LCSC"
-	1    2900 6700
+P 2700 6700
+F 0 "RN4" V 2283 6700 50  0000 C CNN
+F 1 "1kR" V 2374 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 2975 6700 50  0001 C CNN
+F 3 "~" H 2700 6700 50  0001 C CNN
+F 4 "C25726" V 2700 6700 50  0001 C CNN "LCSC"
+	1    2700 6700
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1867,442 +1626,6 @@ F 4 "C25726" V 2900 7100 50  0001 C CNN "LCSC"
 	1    2900 7100
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R_Pack04 RN2
-U 1 1 60F268F3
-P -3350 5850
-F 0 "RN2" V -3767 5850 50  0000 C CNN
-F 1 "1kR" V -3676 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0402" V -3075 5850 50  0001 C CNN
-F 3 "~" H -3350 5850 50  0001 C CNN
-F 4 "C25726" V -3350 5850 50  0001 C CNN "LCSC"
-	1    -3350 5850
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	-3350 6150 -3250 6150
-Connection ~ -3250 6150
-$Comp
-L power:GND #PWR0112
-U 1 1 6106770F
-P -1850 6950
-F 0 "#PWR0112" H -1850 6700 50  0001 C CNN
-F 1 "GND" H -1845 6777 50  0000 C CNN
-F 2 "" H -1850 6950 50  0001 C CNN
-F 3 "" H -1850 6950 50  0001 C CNN
-	1    -1850 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 610A7BB8
-P -2750 6450
-F 0 "C3" H -2900 6450 50  0000 C CNN
-F 1 "100nF" H -3150 6450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H -2712 6300 50  0001 C CNN
-F 3 "~" H -2750 6450 50  0001 C CNN
-F 4 "C1525" V -2750 6450 50  0001 C CNN "LCSC"
-	1    -2750 6450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-2750 6300 -2750 6150
-Wire Wire Line
-	-2750 6150 -3250 6150
-Wire Wire Line
-	-1850 6900 -1850 6950
-Wire Wire Line
-	-3250 6750 -3250 6900
-Wire Wire Line
-	-2750 6600 -2750 6900
-Wire Wire Line
-	-2750 6900 -3250 6900
-Wire Wire Line
-	-2450 6600 -2450 6550
-Wire Wire Line
-	-2850 6550 -2450 6550
-Wire Wire Line
-	-2150 6350 -2150 6600
-Wire Wire Line
-	-2850 6350 -2150 6350
-NoConn ~ -2300 7100
-Wire Wire Line
-	-1850 6900 -1900 6900
-Wire Wire Line
-	-3700 6450 -3650 6450
-Wire Wire Line
-	-2700 6900 -2750 6900
-Connection ~ -2750 6900
-Wire Wire Line
-	-3450 5600 -1850 5600
-Wire Wire Line
-	-1850 5600 -1850 6900
-Connection ~ -1850 6900
-Wire Wire Line
-	-3250 6050 -3250 6150
-Wire Wire Line
-	-3350 6050 -3350 6150
-Wire Wire Line
-	-3700 6150 -3450 6150
-Wire Wire Line
-	-3450 6150 -3450 6050
-Wire Wire Line
-	-3700 6150 -3700 6450
-Wire Wire Line
-	-3450 5650 -3450 5600
-Wire Wire Line
-	-3350 5650 -3350 5550
-Wire Wire Line
-	-3250 5650 -3250 5550
-$Comp
-L Connector:TestPoint TP1
-U 1 1 61778931
-P -3150 5450
-F 0 "TP1" H -3092 5568 50  0000 L CNN
-F 1 "BAT+" H -3092 5477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H -2950 5450 50  0001 C CNN
-F 3 "~" H -2950 5450 50  0001 C CNN
-	1    -3150 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR0113
-U 1 1 617BE225
-P -3450 5450
-F 0 "#PWR0113" H -3450 5300 50  0001 C CNN
-F 1 "+BATT" H -3435 5623 50  0000 C CNN
-F 2 "" H -3450 5450 50  0001 C CNN
-F 3 "" H -3450 5450 50  0001 C CNN
-	1    -3450 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3350 5550 -3250 5550
-Wire Wire Line
-	-3250 5550 -3150 5550
-Wire Wire Line
-	-3150 5550 -3150 5450
-Connection ~ -3250 5550
-Wire Wire Line
-	-3350 5550 -3450 5550
-Wire Wire Line
-	-3450 5550 -3450 5450
-Connection ~ -3350 5550
-$Comp
-L Regulator_Linear:XC6206PxxxMR U4
-U 1 1 6184C10B
-P -1100 4050
-F 0 "U4" H -1250 3800 50  0000 C CNN
-F 1 "XC6206P332MR" H -1100 4201 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H -1100 4275 50  0001 C CIN
-F 3 "https://www.torexsemi.com/file/xc6206/XC6206.pdf" H -1100 4050 50  0001 C CNN
-F 4 "C5446" H -1100 4050 50  0001 C CNN "LCSC"
-	1    -1100 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0114
-U 1 1 6184D44D
-P -750 4000
-F 0 "#PWR0114" H -750 3850 50  0001 C CNN
-F 1 "+3V3" H -735 4173 50  0000 C CNN
-F 2 "" H -750 4000 50  0001 C CNN
-F 3 "" H -750 4000 50  0001 C CNN
-	1    -750 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+BATT #PWR0115
-U 1 1 61895886
-P -2350 4000
-F 0 "#PWR0115" H -2350 3850 50  0001 C CNN
-F 1 "+BATT" H -2335 4173 50  0000 C CNN
-F 2 "" H -2350 4000 50  0001 C CNN
-F 3 "" H -2350 4000 50  0001 C CNN
-	1    -2350 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1450 4050 -1400 4050
-Wire Wire Line
-	-800 4050 -750 4050
-Wire Wire Line
-	-750 4050 -750 4000
-$Comp
-L Device:C C6
-U 1 1 61922E4F
-P -1450 4250
-F 0 "C6" V -1702 4250 50  0000 C CNN
-F 1 "1uF" V -1611 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H -1412 4100 50  0001 C CNN
-F 3 "~" H -1450 4250 50  0001 C CNN
-F 4 "C52923" V -1450 4250 50  0001 C CNN "LCSC"
-	1    -1450 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 619696AB
-P -750 4250
-F 0 "C7" V -1002 4250 50  0000 C CNN
-F 1 "1uF" V -911 4250 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H -712 4100 50  0001 C CNN
-F 3 "~" H -750 4250 50  0001 C CNN
-F 4 "C52923" V -750 4250 50  0001 C CNN "LCSC"
-	1    -750 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-750 4100 -750 4050
-Connection ~ -750 4050
-Wire Wire Line
-	-1450 4100 -1450 4050
-Connection ~ -1450 4050
-Wire Wire Line
-	-1450 4400 -1450 4450
-Wire Wire Line
-	-1450 4450 -1100 4450
-Wire Wire Line
-	-1100 4450 -1100 4350
-Wire Wire Line
-	-1100 4450 -750 4450
-Wire Wire Line
-	-750 4450 -750 4400
-Connection ~ -1100 4450
-$Comp
-L power:GND #PWR0116
-U 1 1 61ACCF62
-P -1100 4500
-F 0 "#PWR0116" H -1100 4250 50  0001 C CNN
-F 1 "GND" H -1095 4327 50  0000 C CNN
-F 2 "" H -1100 4500 50  0001 C CNN
-F 3 "" H -1100 4500 50  0001 C CNN
-	1    -1100 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1100 4500 -1100 4450
-$Comp
-L Connector:TestPoint TP2
-U 1 1 61B15461
-P -3250 6950
-F 0 "TP2" H -3308 6976 50  0000 R CNN
-F 1 "BAT-" H -3308 7067 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H -3050 6950 50  0001 C CNN
-F 3 "~" H -3050 6950 50  0001 C CNN
-	1    -3250 6950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	-3250 6950 -3250 6900
-Connection ~ -3250 6900
-$Comp
-L Device:D D226
-U 1 1 61C39347
-P -1450 3750
-F 0 "D226" V -1404 3670 50  0000 R CNN
-F 1 "1N4148" V -1495 3670 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-323F" H -1450 3750 50  0001 C CNN
-F 3 "~" H -1450 3750 50  0001 C CNN
-F 4 "C2128" V -1450 3750 50  0001 C CNN "LCSC"
-	1    -1450 3750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	-1450 3900 -1450 4050
-$Comp
-L power:+5V #PWR0117
-U 1 1 61CCA0D6
-P -1450 3500
-F 0 "#PWR0117" H -1450 3350 50  0001 C CNN
-F 1 "+5V" H -1435 3673 50  0000 C CNN
-F 2 "" H -1450 3500 50  0001 C CNN
-F 3 "" H -1450 3500 50  0001 C CNN
-	1    -1450 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1450 3500 -1450 3550
-$Comp
-L Transistor_FET:AO3401A Q2
-U 1 1 61D137E6
-P -2050 4150
-F 0 "Q2" V -1708 4150 50  0000 C CNN
-F 1 "AO3401A" V -1799 4150 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H -1850 4075 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H -2050 4150 50  0001 L CNN
-F 4 "C15127" V -2050 4150 50  0001 C CNN "LCSC"
-	1    -2050 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 61DF054E
-P -2050 4600
-F 0 "R4" H -1980 4646 50  0000 L CNN
-F 1 "27kR" H -1980 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V -2120 4600 50  0001 C CNN
-F 3 "~" H -2050 4600 50  0001 C CNN
-F 4 "C25771" V -2050 4600 50  0001 C CNN "LCSC"
-	1    -2050 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-1850 4050 -1450 4050
-$Comp
-L power:GND #PWR0118
-U 1 1 61F14E06
-P -2050 4800
-F 0 "#PWR0118" H -2050 4550 50  0001 C CNN
-F 1 "GND" H -2045 4627 50  0000 C CNN
-F 2 "" H -2050 4800 50  0001 C CNN
-F 3 "" H -2050 4800 50  0001 C CNN
-	1    -2050 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-2050 4800 -2050 4750
-Wire Wire Line
-	-2350 4000 -2350 4050
-Wire Wire Line
-	-2350 4050 -2250 4050
-Wire Wire Line
-	-2050 4350 -2050 4400
-Wire Wire Line
-	-2050 4400 -1800 4400
-Wire Wire Line
-	-1800 4400 -1800 3550
-Wire Wire Line
-	-1800 3550 -1450 3550
-Connection ~ -2050 4400
-Wire Wire Line
-	-2050 4400 -2050 4450
-Connection ~ -1450 3550
-Wire Wire Line
-	-1450 3550 -1450 3600
-$Comp
-L power:+BATT #PWR0119
-U 1 1 6211C4B4
-P 1850 6250
-F 0 "#PWR0119" H 1850 6100 50  0001 C CNN
-F 1 "+BATT" H 1865 6423 50  0000 C CNN
-F 2 "" H 1850 6250 50  0001 C CNN
-F 3 "" H 1850 6250 50  0001 C CNN
-	1    1850 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 6250 1850 6350
-Wire Wire Line
-	1850 6350 1650 6350
-$Comp
-L Device:LED D?
-U 1 1 62168F63
-P 700 5950
-AR Path="/5F7BAB43/5F7BABD4/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7BF8EE/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C0ACE/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C0E9B/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C1909/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C241C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C324C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C47F7/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F7C7FAB/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7BF8EE/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C0ACE/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C0E9B/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C1909/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C241C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C324C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C47F7/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F91C84F/5F7C7FAB/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9266B4/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F938E39/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F939D1F/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F93B525/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F93E254/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F941166/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F944D0C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F94AD53/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F951450/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F959827/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F96367C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F970ED3/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F982593/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F997870/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9B03F8/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0944B/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0947D/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA094AF/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA094E1/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09513/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09545/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09577/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA095A9/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA095DB/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0960D/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA0963F/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09671/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA096A3/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA096D5/62168F63" Ref="D?"  Part="1" 
-AR Path="/5F9F767F/5FA09707/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E3F4/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E426/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E458/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E48A/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E4BC/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E4EE/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E520/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E552/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E584/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E5B6/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E5E8/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E61A/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E64C/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E67E/62168F63" Ref="D?"  Part="1" 
-AR Path="/5FA2E6B0/62168F63" Ref="D?"  Part="1" 
-AR Path="/62168F63" Ref="D227"  Part="1" 
-F 0 "D227" H 693 5695 50  0000 C CNN
-F 1 "LED" H 693 5786 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 700 5950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810131712_BrtLed-Bright-LED-Elec-BL-HUB37A-AV-TRB_C165980.pdf" H 700 5950 50  0001 C CNN
-F 4 "C165980" H 700 5950 50  0001 C CNN "LCSC"
-	1    700  5950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	700  6100 700  6350
-Wire Wire Line
-	700  6350 850  6350
-Wire Wire Line
-	700  5800 700  5750
-Wire Wire Line
-	700  5750 1150 5750
-Text Label 1150 5750 2    50   ~ 0
-CHG_LED+
-$Comp
-L power:+5V #PWR0120
-U 1 1 6224BD75
-P -3700 5450
-F 0 "#PWR0120" H -3700 5300 50  0001 C CNN
-F 1 "+5V" H -3685 5623 50  0000 C CNN
-F 2 "" H -3700 5450 50  0001 C CNN
-F 3 "" H -3700 5450 50  0001 C CNN
-	1    -3700 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3700 5450 -3700 5550
-Wire Wire Line
-	-3700 5550 -3550 5550
-Wire Wire Line
-	-3550 5550 -3550 5650
-Wire Wire Line
-	-3550 6050 -3550 6100
-Wire Wire Line
-	-3550 6100 -3950 6100
-Text Label -3950 6100 0    50   ~ 0
-CHG_LED+
 $Comp
 L Device:C C1
 U 1 1 625B1311
@@ -2516,16 +1839,36 @@ Wire Wire Line
 	4800 4600 5000 4600
 Text Label 5000 4600 2    50   ~ 0
 ~RST
-$Comp
-L Transistor_FET_Dual:FS8205 Q1
-U 1 1 60D27DBC
-P -2300 6900
-F 0 "Q1" V -2400 7100 50  0000 R CNN
-F 1 "FS8205" V -2200 7300 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H -2300 7400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Fortune-Semicon-FS8205_C32254.pdf" H -2300 7400 50  0001 C CNN
-F 4 "C32254" H -1806 6759 50  0001 L CNN "LCSC"
-	1    -2300 6900
-	1    0    0    1   
-$EndComp
+$Sheet
+S 10200 5800 550  450 
+U 634EFCCB
+F0 "Power" 50
+F1 "power.sch" 50
+F2 "D-" B L 10200 5950 50 
+F3 "D+" B L 10200 6100 50 
+$EndSheet
+Wire Wire Line
+	2900 6600 3300 6600
+Wire Wire Line
+	2900 6500 3300 6500
+Wire Wire Line
+	3100 6700 3300 6700
+Wire Wire Line
+	3300 6800 3100 6800
+Text Label 3050 6700 2    50   ~ 0
+K11
+Wire Wire Line
+	2900 6700 3050 6700
+Wire Wire Line
+	2900 6800 3050 6800
+Text Label 3050 6800 2    50   ~ 0
+K10
+Wire Wire Line
+	10200 5950 10000 5950
+Text Label 10000 5950 0    50   ~ 0
+D-
+Wire Wire Line
+	10200 6100 10000 6100
+Text Label 10000 6100 0    50   ~ 0
+D+
 $EndSCHEMATC
