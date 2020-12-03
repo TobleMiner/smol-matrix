@@ -2,7 +2,7 @@
 
   (general
     (thickness 1)
-    (drawings 31)
+    (drawings 32)
     (tracks 1871)
     (zones 0)
     (modules 381)
@@ -12098,6 +12098,9 @@
     )
   )
 
+  (gr_text "Add following remarks to order at JLC:\n\n1. Please don't do trace width compensation\n2. Please don't compensate size of annular rings" (at 126.500001 80.3) (layer Cmts.User)
+    (effects (font (size 3 3) (thickness 0.45)) (justify left))
+  )
   (gr_text "SMØL MATRIX RevC     Designed by Tobias Schramm 2020" (at 79.300001 148.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
